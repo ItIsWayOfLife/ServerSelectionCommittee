@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<ArrayOfSpesSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpesSend>
+    <Id>1</Id>
+    <IdFaculty>1</IdFaculty>
+    <IdDepartment>6</IdDepartment>
+    <CodeSpecialization>1–25 01 04 01 и 1–25 01 04 02</CodeSpecialization>
+    <FullNameSpecialty>Финансы  и кредит</FullNameSpecialty>
+    <ShortNameSpecialty>ФИК</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>2</Id>
+    <IdFaculty>1</IdFaculty>
+    <IdDepartment>1</IdDepartment>
+    <CodeSpecialization>1–25 01 04 02</CodeSpecialization>
+    <FullNameSpecialty>Банковское дело</FullNameSpecialty>
+    <ShortNameSpecialty>БД</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>3</Id>
+    <IdFaculty>1</IdFaculty>
+    <IdDepartment>2</IdDepartment>
+    <CodeSpecialization>1–25 01 08–03 03</CodeSpecialization>
+    <FullNameSpecialty>Бухгалтерский учет, анализ и аудит в промышленности</FullNameSpecialty>
+    <ShortNameSpecialty>БУ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>5</Id>
+    <IdFaculty>1</IdFaculty>
+    <IdDepartment>4</IdDepartment>
+    <CodeSpecialization>1-23 01 02-05 02</CodeSpecialization>
+    <FullNameSpecialty>Лингвистическое обеспечение межкуль-турных коммуникаций (внешнеэконо-мические связи)</FullNameSpecialty>
+    <ShortNameSpecialty>ЛМК</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>6</Id>
+    <IdFaculty>1</IdFaculty>
+    <IdDepartment>3</IdDepartment>
+    <CodeSpecialization>1–40 05 01–02 02</CodeSpecialization>
+    <FullNameSpecialty>Информационные технологии финансо-во-кредитной системы</FullNameSpecialty>
+    <ShortNameSpecialty>ИТ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>7</Id>
+    <IdFaculty>2</IdFaculty>
+    <IdDepartment>9</IdDepartment>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>8</Id>
+    <IdFaculty>2</IdFaculty>
+    <IdDepartment>9</IdDepartment>
+    <CodeSpecialization>1-26 02 03 07</CodeSpecialization>
+    <FullNameSpecialty>Маркетинг</FullNameSpecialty>
+    <ShortNameSpecialty>МР</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>9</Id>
+    <IdFaculty>2</IdFaculty>
+    <IdDepartment>9</IdDepartment>
+    <CodeSpecialization>1-26 02 01 02</CodeSpecialization>
+    <FullNameSpecialty>Предпринимательская деятельность в сфере физической культуры, спорта и международного туризма</FullNameSpecialty>
+    <ShortNameSpecialty>ПДС</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>10</Id>
+    <IdFaculty>2</IdFaculty>
+    <IdDepartment>9</IdDepartment>
+    <CodeSpecialization> 1-26 02 02 06</CodeSpecialization>
+    <FullNameSpecialty>Менеджмент (в сфере международного туризма)</FullNameSpecialty>
+    <ShortNameSpecialty>МН</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>11</Id>
+    <IdFaculty>3</IdFaculty>
+    <IdDepartment>10</IdDepartment>
+    <CodeSpecialization>1-31 01 01-03</CodeSpecialization>
+    <FullNameSpecialty>Биология
+(биотехнология) </FullNameSpecialty>
+    <ShortNameSpecialty>БИОТ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>12</Id>
+    <IdFaculty>3</IdFaculty>
+    <IdDepartment>10</IdDepartment>
+    <CodeSpecialization>1-31 01 01-01</CodeSpecialization>
+    <FullNameSpecialty>Биология
+(научно-производственная деятель-ность)</FullNameSpecialty>
+    <ShortNameSpecialty>БИО</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>13</Id>
+    <IdFaculty>3</IdFaculty>
+    <IdDepartment>12</IdDepartment>
+    <CodeSpecialization>1-74 03 03 02</CodeSpecialization>
+    <FullNameSpecialty>Промышленное рыбоводство </FullNameSpecialty>
+    <ShortNameSpecialty>ПР</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>14</Id>
+    <IdFaculty>3</IdFaculty>
+    <IdDepartment>11</IdDepartment>
+    <CodeSpecialization>1-75 02 01  01-02</CodeSpecialization>
+    <FullNameSpecialty>Садово-парковое строительство</FullNameSpecialty>
+    <ShortNameSpecialty>СПС</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>15</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>13</IdDepartment>
+    <CodeSpecialization>1-88 01 01-01</CodeSpecialization>
+    <FullNameSpecialty>Физическая культура (лечебная)</FullNameSpecialty>
+    <ShortNameSpecialty>ФКЛ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>16</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>13</IdDepartment>
+    <CodeSpecialization>1-88 01 01-02</CodeSpecialization>
+    <FullNameSpecialty>Физическая культура (дошкольников)</FullNameSpecialty>
+    <ShortNameSpecialty>ФКД</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>17</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>14</IdDepartment>
+    <CodeSpecialization>1-88 01 03-01</CodeSpecialization>
+    <FullNameSpecialty>Физическая реабилитация и эрготера-пия (физическая реабилитация)</FullNameSpecialty>
+    <ShortNameSpecialty>ФРЭФ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>18</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>14</IdDepartment>
+    <CodeSpecialization>1-88 01 03-02</CodeSpecialization>
+    <FullNameSpecialty>Физическая реабилитация и эрготера-пия (эрготерапия)</FullNameSpecialty>
+    <ShortNameSpecialty>ФРЭЭ</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>19</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>14</IdDepartment>
+    <CodeSpecialization>1-88 01 02-01</CodeSpecialization>
+    <FullNameSpecialty>Оздоровительная и адаптивная физи-ческая культура (оздоровительная)</FullNameSpecialty>
+    <ShortNameSpecialty>ОАФКО</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>20</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>14</IdDepartment>
+    <CodeSpecialization>1-88 01 02-02</CodeSpecialization>
+    <FullNameSpecialty>Оздоровительная и адаптивная физи-ческая культура (адаптивная)</FullNameSpecialty>
+    <ShortNameSpecialty>ОАФКА</ShortNameSpecialty>
+  </SpesSend>
+  <SpesSend>
+    <Id>21</Id>
+    <IdFaculty>4</IdFaculty>
+    <IdDepartment>14</IdDepartment>
+    <CodeSpecialization>1-88 02 01-01</CodeSpecialization>
+    <FullNameSpecialty>Спортивно-педагогическая деятель-ность (тренерская работа с указанием вида спорта)</FullNameSpecialty>
+    <ShortNameSpecialty>СПД</ShortNameSpecialty>
+  </SpesSend>
+</ArrayOfSpesSend>

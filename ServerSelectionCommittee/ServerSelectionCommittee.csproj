@@ -53,28 +53,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Model\BudgetOrCharge.cs" />
-    <Compile Include="Model\Concession.cs" />
-    <Compile Include="Model\ContractEn.cs" />
-    <Compile Include="Model\Department.cs" />
-    <Compile Include="Model\Documents.cs" />
-    <Compile Include="Model\Enrollee.cs" />
-    <Compile Include="Model\EntranceTests.cs" />
-    <Compile Include="Model\Faculty.cs" />
-    <Compile Include="Model\FormStudy.cs" />
-    <Compile Include="Model\History.cs" />
-    <Compile Include="Model\LevelEducation.cs" />
+    <Compile Include="ModelDB\BudgetOrCharge.cs" />
+    <Compile Include="ModelDB\Concession.cs" />
+    <Compile Include="ModelDB\ContractEn.cs" />
+    <Compile Include="ModelDB\Department.cs" />
+    <Compile Include="ModelDB\Documents.cs" />
+    <Compile Include="ModelDB\Enrollee.cs" />
+    <Compile Include="ModelDB\EntranceTests.cs" />
+    <Compile Include="ModelDB\Faculty.cs" />
+    <Compile Include="ModelDB\FormStudy.cs" />
+    <Compile Include="ModelDB\History.cs" />
+    <Compile Include="ModelDB\LevelEducation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\RelativeOrGuardian.cs" />
-    <Compile Include="Model\Specialty.cs" />
-    <Compile Include="Model\TrainingDirection.cs" />
-    <Compile Include="Model\TrainingPeriod.cs" />
-    <Compile Include="Model\User.cs" />
+    <Compile Include="ModelDB\RelativeOrGuardian.cs" />
+    <Compile Include="ModelDB\Specialty.cs" />
+    <Compile Include="ModelDB\TrainingDirection.cs" />
+    <Compile Include="ModelDB\TrainingPeriod.cs" />
+    <Compile Include="ModelDB\User.cs" />
+    <Compile Include="SpesSend.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ModelClient\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

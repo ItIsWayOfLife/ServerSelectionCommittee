@@ -27,20 +27,20 @@ namespace ServerSelectionCommittee
 
 
             // запись в xml
-            //List<User> users = null;
+            List<SpesSend> spec = SpesSend.GetData();
+          
 
-            //using (DataContext db = new DataContext())
-            //{
-            //    users = db.Users.ToList();
-            //}
+          
 
-            //XmlSerializer formatter = new XmlSerializer(typeof(List<User>));
+            XmlSerializer formatter = new XmlSerializer(typeof(List<SpesSend>));
 
-            //// получаем поток, куда будем записывать сериализованный объект
-            //using (FileStream fs = new FileStream("User.xml", FileMode.Create))
-            //{
-            //    formatter.Serialize(fs, users);
-            //}
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("Spec.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, spec);
+            }
+
+           
 
             Console.WriteLine("End");
 
