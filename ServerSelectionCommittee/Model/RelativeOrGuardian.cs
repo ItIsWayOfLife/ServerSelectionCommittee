@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("RelativeOrGuardian")]
+    [Serializable]
     public partial class RelativeOrGuardian
     {
         [Key]

@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("ContractEn")]
+    [Serializable]
     public partial class ContractEn
     {
         [Key]

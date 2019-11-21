@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("Concession")]
+    [Serializable]
     public partial class Concession
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]

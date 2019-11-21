@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("User")]
+    [Serializable]
     public partial class User
     {
         public int Id { get; set; }

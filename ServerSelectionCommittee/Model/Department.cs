@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("Department")]
+    [Serializable]
     public partial class Department
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]

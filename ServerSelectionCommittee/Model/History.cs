@@ -7,6 +7,7 @@ namespace ServerSelectionCommittee
     using System.Data.Entity.Spatial;
 
     [Table("History")]
+    [Serializable]
     public partial class History
     {
         [Key]
