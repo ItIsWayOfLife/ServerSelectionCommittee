@@ -10,6 +10,20 @@ namespace ServerSelectionCommittee
     {
         static void Main(string[] args)
         {
+
+            using (DataContext db = new DataContext())
+            {
+                foreach (Enrollee en in db.Enrollees)
+                {
+                    Console.WriteLine($"id: {en.IdEnrollee} льгота: {en.Concession} email: {en.EnrolleeEmail}  ");
+                }
+            }
+
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("End");
+
+                Console.ReadKey();
         }
     }
 }

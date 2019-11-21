@@ -1,0 +1,13 @@
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\ServerSelectionCommittee.exe.config
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\ServerSelectionCommittee.exe
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\ServerSelectionCommittee.pdb
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\EntityFramework.dll
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\EntityFramework.SqlServer.dll
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\EntityFramework.xml
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\EntityFramework.SqlServer.xml
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\bin\Debug\ru\EntityFramework.resources.dll
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\obj\Debug\ServerSelectionCommittee.csprojAssemblyReference.cache
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\obj\Debug\ServerSelectionCommittee.csproj.CoreCompileInputs.cache
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\obj\Debug\ServerSelectionCommittee.csproj.CopyComplete
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\obj\Debug\ServerSelectionCommittee.exe
+D:\ПолесГУ\ForEnrollee\ServerSelectionCommittee\ServerSelectionCommittee\obj\Debug\ServerSelectionCommittee.pdb

@@ -52,9 +52,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enrollee.cs" />
+    <Compile Include="DataContext.cs" />
+    <Compile Include="Model\BudgetOrCharge.cs" />
+    <Compile Include="Model\Concession.cs" />
+    <Compile Include="Model\ContractEn.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\Documents.cs" />
+    <Compile Include="Model\Enrollee.cs" />
+    <Compile Include="Model\EntranceTests.cs" />
+    <Compile Include="Model\Faculty.cs" />
+    <Compile Include="Model\FormStudy.cs" />
+    <Compile Include="Model\History.cs" />
+    <Compile Include="Model\LevelEducation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\RelativeOrGuardian.cs" />
+    <Compile Include="Model\Specialty.cs" />
+    <Compile Include="Model\TrainingDirection.cs" />
+    <Compile Include="Model\TrainingPeriod.cs" />
+    <Compile Include="Model\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
