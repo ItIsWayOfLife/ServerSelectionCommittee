@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ServerSelectionCommittee
 {
+    [Serializable]
     class TrainingPeriodSend
     {
         public int Id { get; set; }
         public string NameTrainingPeriod { get; set; }
-
 
         public static List<TrainingPeriodSend> GetData()
         {
