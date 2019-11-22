@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContractEnSend.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="DepartmentSend.cs" />
     <Compile Include="DocumentsSend.cs" />
