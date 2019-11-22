@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
+    <Compile Include="EntranceTestsSend.cs" />
     <Compile Include="FacultySend.cs" />
     <Compile Include="FormStudySend.cs" />
     <Compile Include="HistorySend.cs" />
