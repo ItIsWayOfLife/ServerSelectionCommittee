@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
+    <Compile Include="HistorySend.cs" />
     <Compile Include="LevelEducationSend.cs" />
     <Compile Include="ModelDB\BudgetOrCharge.cs" />
     <Compile Include="ModelDB\Concession.cs" />
