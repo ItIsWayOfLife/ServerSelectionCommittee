@@ -53,5 +53,38 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, documentsSends);
             }
         }
+
+        public static List<DocumentsSend> DataDeserialize()
+        {
+            List<DocumentsSend> documentsSends = null;
+
+            using (FileStream fs = new FileStream("DeserializeFile/DocumentsSend.xml", FileMode.Open))
+            {
+                XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+
+                documentsSends = (List<DocumentsSend>)formatter.Deserialize(fs);
+            }
+
+            return documentsSends;
+        }
+
+        public static void SaveData()
+        {
+            List<DocumentsSend> documentsSends = DataDeserialize();
+
+            List<Documents> documents = new List<Documents>();
+
+            foreach (DocumentsSend d in documentsSends)
+            {
+                documents.Add(new Documents() { NameDocument = d.NameDocument, Description = d.Description, NumberDocument = d.NumberDocument,
+                    IdEnrollee = d.IdEnrollee});
+            }
+
+            using (DataContext db = new DataContext())
+            {
+                db.Documents.AddRange(documents);
+                db.SaveChanges();
+            }
+        }
     }
 }
