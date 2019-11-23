@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ServerSelectionCommittee
 {
+    [Serializable]
     class FacultySend
     {
         public int Id { get; set; }

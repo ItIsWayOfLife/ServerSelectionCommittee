@@ -52,18 +52,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BudgetOrChargeSend.cs" />
-    <Compile Include="ConcessionSend.cs" />
-    <Compile Include="ContractEnSend.cs" />
+    <Compile Include="DataSerializable.cs" />
+    <Compile Include="ModelClient\BudgetOrChargeSend.cs" />
+    <Compile Include="ModelClient\ConcessionSend.cs" />
+    <Compile Include="ModelClient\ContractEnSend.cs" />
     <Compile Include="DataContext.cs" />
-    <Compile Include="DepartmentSend.cs" />
-    <Compile Include="DocumentsSend.cs" />
-    <Compile Include="EnrolleeSend.cs" />
-    <Compile Include="EntranceTestsSend.cs" />
-    <Compile Include="FacultySend.cs" />
-    <Compile Include="FormStudySend.cs" />
-    <Compile Include="HistorySend.cs" />
-    <Compile Include="LevelEducationSend.cs" />
+    <Compile Include="ModelClient\DepartmentSend.cs" />
+    <Compile Include="ModelClient\DocumentsSend.cs" />
+    <Compile Include="ModelClient\EnrolleeSend.cs" />
+    <Compile Include="ModelClient\EntranceTestsSend.cs" />
+    <Compile Include="ModelClient\FacultySend.cs" />
+    <Compile Include="ModelClient\FormStudySend.cs" />
+    <Compile Include="ModelClient\HistorySend.cs" />
+    <Compile Include="ModelClient\LevelEducationSend.cs" />
     <Compile Include="ModelDB\BudgetOrCharge.cs" />
     <Compile Include="ModelDB\Concession.cs" />
     <Compile Include="ModelDB\ContractEn.cs" />
@@ -83,10 +84,10 @@
     <Compile Include="ModelDB\TrainingPeriod.cs" />
     <Compile Include="ModelDB\User.cs" />
     <Compile Include="ModelClient\SpecialtySend.cs" />
-    <Compile Include="RelativeOrGuardianSend.cs" />
-    <Compile Include="TrainingDirectionSend.cs" />
-    <Compile Include="TrainingPeriodSend.cs" />
-    <Compile Include="UserSend.cs" />
+    <Compile Include="ModelClient\RelativeOrGuardianSend.cs" />
+    <Compile Include="ModelClient\TrainingDirectionSend.cs" />
+    <Compile Include="ModelClient\TrainingPeriodSend.cs" />
+    <Compile Include="ModelClient\UserSend.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
