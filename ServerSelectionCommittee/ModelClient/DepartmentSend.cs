@@ -44,7 +44,7 @@ namespace ServerSelectionCommittee
             XmlSerializer formatter = new XmlSerializer(typeof(List<DepartmentSend>));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("DepartmentSend.xml", FileMode.Create))
+            using (FileStream fs = new FileStream("SerializableFile/DepartmentSend.xml", FileMode.Create))
             {
                 formatter.Serialize(fs, departmentSends);
             }

@@ -52,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSerializable.cs" />
+    <Compile Include="AllDataSerializable.cs" />
     <Compile Include="ModelClient\BudgetOrChargeSend.cs" />
     <Compile Include="ModelClient\ConcessionSend.cs" />
     <Compile Include="ModelClient\ContractEnSend.cs" />

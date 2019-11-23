@@ -56,7 +56,7 @@ namespace ServerSelectionCommittee
             XmlSerializer formatter = new XmlSerializer(typeof(List<TrainingDirectionSend>));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("TrainingDirectionSend.xml", FileMode.Create))
+            using (FileStream fs = new FileStream("SerializableFile/TrainingDirectionSend.xml", FileMode.Create))
             {
                 formatter.Serialize(fs, trainingDirectionSends);
             }

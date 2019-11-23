@@ -42,7 +42,7 @@ namespace ServerSelectionCommittee
             XmlSerializer formatter = new XmlSerializer(typeof(List<TrainingPeriodSend>));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("TrainingPeriodSend.xml", FileMode.Create))
+            using (FileStream fs = new FileStream("SerializableFile/TrainingPeriodSend.xml", FileMode.Create))
             {
                 formatter.Serialize(fs, trainingPeriodSends);
             }

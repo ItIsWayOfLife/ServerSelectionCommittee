@@ -50,7 +50,7 @@ namespace ServerSelectionCommittee
             XmlSerializer formatter = new XmlSerializer(typeof(List<ContractEnSend>));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("ContractEnSend.xml", FileMode.Create))
+            using (FileStream fs = new FileStream("SerializableFile/ContractEnSend.xml", FileMode.Create))
             {
                 formatter.Serialize(fs, contractEnSends);
             }

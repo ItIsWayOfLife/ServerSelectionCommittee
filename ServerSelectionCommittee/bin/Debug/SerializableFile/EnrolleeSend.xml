@@ -155,7 +155,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>29</Id>
-    <IdDirectionTraining>2</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2018-08-26T15:58:00</EnrolleeDateOfRegistration>
@@ -186,7 +186,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>30</Id>
-    <IdDirectionTraining>9</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
@@ -216,7 +216,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>32</Id>
-    <IdDirectionTraining>13</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
@@ -276,7 +276,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>36</Id>
-    <IdDirectionTraining>2</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
@@ -306,7 +306,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>37</Id>
-    <IdDirectionTraining>2</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2018-08-24T00:00:00</EnrolleeDateOfRegistration>
@@ -336,7 +336,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>62</Id>
-    <IdDirectionTraining>6</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2019-03-30T22:14:20.153</EnrolleeDateOfRegistration>
@@ -366,7 +366,7 @@
   </EnrolleeSend>
   <EnrolleeSend>
     <Id>63</Id>
-    <IdDirectionTraining>6</IdDirectionTraining>
+    <IdDirectionTraining>1</IdDirectionTraining>
     <IdLevelEducation>1</IdLevelEducation>
     <IdConcession xsi:nil="true" />
     <EnrolleeDateOfRegistration>2019-03-31T21:20:56.767</EnrolleeDateOfRegistration>

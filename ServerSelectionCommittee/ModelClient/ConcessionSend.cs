@@ -42,7 +42,7 @@ namespace ServerSelectionCommittee
             XmlSerializer formatter = new XmlSerializer(typeof(List<ConcessionSend>));
 
             // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("ConcessionSend.xml", FileMode.Create))
+            using (FileStream fs = new FileStream("SerializableFile/ConcessionSend.xml", FileMode.Create))
             {
                 formatter.Serialize(fs, concessionSends);
             }

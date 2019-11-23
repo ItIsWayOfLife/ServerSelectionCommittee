@@ -252,4 +252,46 @@
     <Operation>Удалены данные абитуриента Быков  Василий </Operation>
     <CreateAt>2019-11-21T19:36:22.077</CreateAt>
   </HistorySend>
+  <HistorySend>
+    <Id>1033</Id>
+    <IdEnrollee>29</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Мосейчук Денис</Operation>
+    <CreateAt>2019-11-23T17:38:21.83</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1034</Id>
+    <IdEnrollee>30</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Вяз Ирина</Operation>
+    <CreateAt>2019-11-23T17:38:24.733</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1035</Id>
+    <IdEnrollee>32</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Васиков Иван</Operation>
+    <CreateAt>2019-11-23T17:38:27</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1036</Id>
+    <IdEnrollee>36</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Цветова Полина</Operation>
+    <CreateAt>2019-11-23T17:38:29.6</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1037</Id>
+    <IdEnrollee>37</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Пронько Кристина</Operation>
+    <CreateAt>2019-11-23T17:38:31.69</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1038</Id>
+    <IdEnrollee>62</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Лемешевская Ирина</Operation>
+    <CreateAt>2019-11-23T17:38:33.48</CreateAt>
+  </HistorySend>
+  <HistorySend>
+    <Id>1039</Id>
+    <IdEnrollee>63</IdEnrollee>
+    <Operation>Обновлены данные абитуриента Кривецкий Виктор</Operation>
+    <CreateAt>2019-11-23T17:38:35.18</CreateAt>
+  </HistorySend>
 </ArrayOfHistorySend>
