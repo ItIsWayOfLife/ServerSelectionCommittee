@@ -1,2 +1,10 @@
 <?xml version="1.0"?>
-<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfDocumentsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumentsSend>
+    <Id>27</Id>
+    <IdEnrollee>30</IdEnrollee>
+    <NameDocument>ssssssss</NameDocument>
+    <NumberDocument>233</NumberDocument>
+    <Description>sssss</Description>
+  </DocumentsSend>
+</ArrayOfDocumentsSend>

@@ -68,6 +68,19 @@ namespace ServerSelectionCommittee
             return documentsSends;
         }
 
+        // запись в xml, возвращает xml запись 
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/DocumentsSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
+
         public static void SaveData()
         {
             List<DocumentsSend> documentsSends = DataDeserialize();

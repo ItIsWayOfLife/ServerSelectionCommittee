@@ -2,64 +2,64 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using System.Net;
+
+
 
 namespace ServerSelectionCommittee
 {
     class Program
     {
+        static TcpListener listener;
+
         static void Main(string[] args)
         {
-
-            //using (DataContext db = new DataContext())
+            //try
             //{
-            //    foreach (Enrollee en in db.Enrollees)
+            //    listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1234);
+            //    listener.Start();
+            //    Console.WriteLine("Ожидание подключений...");
+            //    while (true)
             //    {
-            //        Console.WriteLine($"id: {en.IdEnrollee} льгота: {en.Concession} email: {en.EnrolleeEmail}  ");
+            //        TcpClient client = listener.AcceptTcpClient();
+            //        ClientObject clientObject = new ClientObject(client);
+            //        // Создаем новый поток для обслуживания нового клиента
+            //        Thread clientThread = new Thread(new
+            //       ThreadStart(clientObject.Process));
+            //        clientThread.Start();
             //    }
             //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //finally
+            //{
+            //    if (listener != null)
+            //        listener.Stop();
+            //}
 
+            List<DocumentsSend> doc = null;
 
-            //Console.ForegroundColor = ConsoleColor.Red;
-            //Console.WriteLine("End");
-
-
-            // запись в xml
-
-            Console.WriteLine("Start");
-
-
-            DocumentsSend documentsSend = new DocumentsSend();
-            documentsSend.IdEnrollee = 30;
-            documentsSend.NameDocument = "ssssssss";
-            documentsSend.NumberDocument = "233";
-            documentsSend.Description = "sssss";
-
-           
-
-            using (DataContext db = new DataContext())
+            // десериализация
+            using (FileStream fs = new FileStream("SerializableFile/DocumentsSend.xml", FileMode.Open))
             {
-                Documents documents = new Documents()
+                XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+
+                doc = (List<DocumentsSend>)formatter.Deserialize(fs);
+
+                foreach (DocumentsSend s in doc)
                 {
-                    IdEnrollee = documentsSend.IdEnrollee,
-                    NameDocument = documentsSend.NameDocument,
-                    NumberDocument = documentsSend.NumberDocument,
-                    Description = documentsSend.Description,
-                };
+                    Console.WriteLine($"id: {s.Id}; описание: {s.Description}; номер: {s.NumberDocument}");
+                }
 
-
-
-                db.Documents.Add(documents);
-                db.SaveChanges();
+                Console.ReadKey();
             }
-
-
-
-                Console.WriteLine("End");
-
-            Console.ReadKey();
         }
     }
 }
