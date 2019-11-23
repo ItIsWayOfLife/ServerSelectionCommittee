@@ -20,7 +20,6 @@ namespace ServerSelectionCommittee
         public DbSet<Department> Departments { get; set; }
         public DbSet<Documents> Documents { get; set; }
         public DbSet<Enrollee> Enrollees { get; set; }
-        public DbSet<EntranceTests> EntranceTests { get; set; }
         public DbSet<Faculty> Faculties { get; set; }
         public DbSet<FormStudy> FormStudies { get; set; }
         public DbSet<History> Histories { get; set; }

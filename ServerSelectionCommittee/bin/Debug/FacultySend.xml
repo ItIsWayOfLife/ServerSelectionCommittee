@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ArrayOfFacultySend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FacultySend>
+    <Id>1</Id>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+  </FacultySend>
+  <FacultySend>
+    <Id>2</Id>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+  </FacultySend>
+  <FacultySend>
+    <Id>3</Id>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+  </FacultySend>
+  <FacultySend>
+    <Id>4</Id>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+  </FacultySend>
+  <FacultySend>
+    <Id>5</Id>
+    <FullNameFaculty>Факультет дополнительного образования</FullNameFaculty>
+    <ShortNameFaculty>ФДО</ShortNameFaculty>
+  </FacultySend>
+</ArrayOfFacultySend>

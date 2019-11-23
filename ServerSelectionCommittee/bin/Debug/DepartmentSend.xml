@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ArrayOfDepartmentSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DepartmentSend>
+    <Id>1</Id>
+    <FullNameDepartment>Кафедра банковского дела</FullNameDepartment>
+    <ShortNameDepartment>КБД</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>2</Id>
+    <FullNameDepartment>Кафедра бухгалтерского учёта, анализа и аудита</FullNameDepartment>
+    <ShortNameDepartment>КБУАиА</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>3</Id>
+    <FullNameDepartment>Кафедра высшей математики и информационных технологий</FullNameDepartment>
+    <ShortNameDepartment>КВМиИТ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>4</Id>
+    <FullNameDepartment>Кафедра лингвистики и бизнес-коммуникаций</FullNameDepartment>
+    <ShortNameDepartment>КЛиБК</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>5</Id>
+    <FullNameDepartment>Кафедра историко-культурного наследия</FullNameDepartment>
+    <ShortNameDepartment>КИКН</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>6</Id>
+    <FullNameDepartment>Кафедра финансов</FullNameDepartment>
+    <ShortNameDepartment>КФ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>7</Id>
+    <FullNameDepartment>Кафедра менеджмента и маркетинга</FullNameDepartment>
+    <ShortNameDepartment>КМиМ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>8</Id>
+    <FullNameDepartment>Кафедра теоретической и прикладной экономики</FullNameDepartment>
+    <ShortNameDepartment>КТиПЭ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>9</Id>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>10</Id>
+    <FullNameDepartment>Кафедра биотехнологии</FullNameDepartment>
+    <ShortNameDepartment>КБ</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>11</Id>
+    <FullNameDepartment>Кафедра ландшафтного проектирования</FullNameDepartment>
+    <ShortNameDepartment>КЛП</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>12</Id>
+    <FullNameDepartment>Кафедра промышленного рыбоводства и переработки рыбной продукции</FullNameDepartment>
+    <ShortNameDepartment>КПРиПРП</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>13</Id>
+    <FullNameDepartment>Кафедра физической культуры и спорта</FullNameDepartment>
+    <ShortNameDepartment>КФКиС</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>14</Id>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
+  </DepartmentSend>
+  <DepartmentSend>
+    <Id>15</Id>
+    <FullNameDepartment>Кафедра общей и клинической медицины</FullNameDepartment>
+    <ShortNameDepartment>КОиКМ</ShortNameDepartment>
+  </DepartmentSend>
+</ArrayOfDepartmentSend>

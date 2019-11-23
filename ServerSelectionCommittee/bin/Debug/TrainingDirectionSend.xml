@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<ArrayOfTrainingDirectionSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrainingDirectionSend>
+    <Id>1</Id>
+    <IdSpecialty>1</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>10</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>2</Id>
+    <IdSpecialty>1</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>1</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>5</Id>
+    <IdSpecialty>3</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>6</Id>
+    <IdSpecialty>3</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>7</Id>
+    <IdSpecialty>7</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>3</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>8</Id>
+    <IdSpecialty>7</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>12</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>9</Id>
+    <IdSpecialty>5</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Английский язык (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>2</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>10</Id>
+    <IdSpecialty>5</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Английский язык (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>История Беларуси (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>3</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>11</Id>
+    <IdSpecialty>6</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физика (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>12</Id>
+    <IdSpecialty>6</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физика (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>15</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>13</Id>
+    <IdSpecialty>6</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>2</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Основы алгоритмизации и програм-мирования (ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Базы данных и системы управления базами данных (ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>3</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>14</Id>
+    <IdSpecialty>6</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>2</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Основы алгоритмизации и програм-мирования (ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Базы данных и системы управления базами данных (ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>10</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>17</Id>
+    <IdSpecialty>7</IdSpecialty>
+    <IdFormStudy>2</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>4</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>18</Id>
+    <IdSpecialty>7</IdSpecialty>
+    <IdFormStudy>2</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>7</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>19</Id>
+    <IdSpecialty>7</IdSpecialty>
+    <IdFormStudy>2</IdFormStudy>
+    <IdTrainingPeriod>2</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>8</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>20</Id>
+    <IdSpecialty>8</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>6</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>21</Id>
+    <IdSpecialty>8</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>2</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>22</Id>
+    <IdSpecialty>10</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>3</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>23</Id>
+    <IdSpecialty>10</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>3</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>24</Id>
+    <IdSpecialty>11</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>2</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>25</Id>
+    <IdSpecialty>11</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Биология (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>1</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>26</Id>
+    <IdSpecialty>11</IdSpecialty>
+    <IdFormStudy>2</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Биология (ЦТ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>2</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>27</Id>
+    <IdSpecialty>13</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Биология(ПЭ)</SecondEntranceTests>
+    <AdmissionPlan>4</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>28</Id>
+    <IdSpecialty>14</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Химия(ПЭ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>29</Id>
+    <IdSpecialty>14</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Химия(ПЭ)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>15</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>30</Id>
+    <IdSpecialty>18</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>10</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>31</Id>
+    <IdSpecialty>18</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>10</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>32</Id>
+    <IdSpecialty>19</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>33</Id>
+    <IdSpecialty>19</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>12</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>34</Id>
+    <IdSpecialty>19</IdSpecialty>
+    <IdFormStudy>2</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>7</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>35</Id>
+    <IdSpecialty>21</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>5</AdmissionPlan>
+  </TrainingDirectionSend>
+  <TrainingDirectionSend>
+    <Id>36</Id>
+    <IdSpecialty>21</IdSpecialty>
+    <IdFormStudy>1</IdFormStudy>
+    <IdTrainingPeriod>1</IdTrainingPeriod>
+    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
+    <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
+    <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
+    <AdmissionPlan>4</AdmissionPlan>
+  </TrainingDirectionSend>
+</ArrayOfTrainingDirectionSend>

@@ -16,9 +16,9 @@ namespace ServerSelectionCommittee
         public int IdFormStudy { get; set; }
         public int IdTrainingPeriod { get; set; }
         public int IdBudgetOrCharge { get; set; }
-        public int? IdFirstIdEntranceTests { get; set; }
-        public int? IdSecondEntranceTests { get; set; }
-        public int? IdThirdEntranceTests { get; set; }
+        public string FirstIdEntranceTests { get; set; }
+        public string SecondEntranceTests { get; set; }
+        public string ThirdEntranceTests { get; set; }
         public int AdmissionPlan { get; set; }
 
         public static List<TrainingDirectionSend> GetData()
@@ -37,9 +37,9 @@ namespace ServerSelectionCommittee
                             IdFormStudy = t.IdFormStudy,
                             IdTrainingPeriod = t.IdTrainingPeriod,
                             IdBudgetOrCharge = t.IdBudgetOrCharge,
-                            IdFirstIdEntranceTests = t.IdFirstIdEntranceTests,
-                            IdSecondEntranceTests = t.IdSecondEntranceTests,
-                            IdThirdEntranceTests = t.IdThirdEntranceTests,
+                            FirstIdEntranceTests = t.FirstIdEntranceTests,
+                            SecondEntranceTests = t.SecondEntranceTests,
+                            ThirdEntranceTests = t.ThirdEntranceTests,
                             AdmissionPlan = t.AdmissionPlan
                         }
                         );

@@ -12,7 +12,7 @@ namespace ServerSelectionCommittee
     public class ContractEnSend
     {
         public int Id { get; set; }
-        public int IdEnrolle { get; set; }
+        public int IdEnrollee { get; set; }
         public string NumberContract { get; set; }
         public DateTime ImprisonmentDateContract { get; set; }
         public DateTime ValidityContract { get; set; }
@@ -30,7 +30,7 @@ namespace ServerSelectionCommittee
                         new ContractEnSend()
                         {
                             Id = c.IdContract,
-                            IdEnrolle = c.IdEnrolle,
+                            IdEnrollee = c.IdEnrollee,
                             NumberContract = c.NumberContract,
                             ImprisonmentDateContract = c.ImprisonmentDateContract,
                             ValidityContract = c.ValidityContract,

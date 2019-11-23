@@ -28,12 +28,10 @@ namespace ServerSelectionCommittee
 
             // запись в xml
 
-            BudgetOrChargeSend.DataSerializable();
+            Console.WriteLine("Start");
 
 
-
-
-
+             ContractEnSend.DataSerializable();
 
 
             Console.WriteLine("End");

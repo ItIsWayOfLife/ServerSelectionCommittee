@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<ArrayOfEntranceTestsSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntranceTestsSend>
+    <Id>1</Id>
+    <NameEntranceTests>Белорусский (русский) язык (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>2</Id>
+    <NameEntranceTests>Математика (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>3</Id>
+    <NameEntranceTests>Иностранный язык (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>4</Id>
+    <NameEntranceTests>Английский язык (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>5</Id>
+    <NameEntranceTests>История Беларуси (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>6</Id>
+    <NameEntranceTests>Физика (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>7</Id>
+    <NameEntranceTests>Биология (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>8</Id>
+    <NameEntranceTests>Химия (ЦТ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>9</Id>
+    <NameEntranceTests>Бухгалтерский учёт (ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>10</Id>
+    <NameEntranceTests>Экономика организации (предприя-тия) (ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>11</Id>
+    <NameEntranceTests>Основы алгоритмизации и програм-мирования (ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>12</Id>
+    <NameEntranceTests>Базы данных и системы управления базами данных (ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>13</Id>
+    <NameEntranceTests>Основы менеджмента (ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>14</Id>
+    <NameEntranceTests>Биология(ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>15</Id>
+    <NameEntranceTests>Химия(ПЭ)</NameEntranceTests>
+  </EntranceTestsSend>
+  <EntranceTestsSend>
+    <Id>16</Id>
+    <NameEntranceTests>Физическая культура и спорт  (экзамен в университете)</NameEntranceTests>
+  </EntranceTestsSend>
+</ArrayOfEntranceTestsSend>

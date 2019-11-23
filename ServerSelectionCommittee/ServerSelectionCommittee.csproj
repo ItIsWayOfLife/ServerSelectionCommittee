@@ -60,7 +60,6 @@
     <Compile Include="ModelClient\DepartmentSend.cs" />
     <Compile Include="ModelClient\DocumentsSend.cs" />
     <Compile Include="ModelClient\EnrolleeSend.cs" />
-    <Compile Include="ModelClient\EntranceTestsSend.cs" />
     <Compile Include="ModelClient\FacultySend.cs" />
     <Compile Include="ModelClient\FormStudySend.cs" />
     <Compile Include="ModelClient\HistorySend.cs" />
@@ -71,7 +70,6 @@
     <Compile Include="ModelDB\Department.cs" />
     <Compile Include="ModelDB\Documents.cs" />
     <Compile Include="ModelDB\Enrollee.cs" />
-    <Compile Include="ModelDB\EntranceTests.cs" />
     <Compile Include="ModelDB\Faculty.cs" />
     <Compile Include="ModelDB\FormStudy.cs" />
     <Compile Include="ModelDB\History.cs" />

@@ -13,7 +13,7 @@ namespace ServerSelectionCommittee
         [Key]
         public int IdContract { get; set; }
 
-        public int IdEnrolle { get; set; }
+        public int IdEnrollee { get; set; }
 
         [Required]
         [StringLength(50)]

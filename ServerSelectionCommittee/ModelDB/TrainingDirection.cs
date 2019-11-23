@@ -27,11 +27,11 @@ namespace ServerSelectionCommittee
 
         public int IdBudgetOrCharge { get; set; }
 
-        public int? IdFirstIdEntranceTests { get; set; }
+        public string FirstIdEntranceTests { get; set; }
 
-        public int? IdSecondEntranceTests { get; set; }
+        public string SecondEntranceTests { get; set; }
 
-        public int? IdThirdEntranceTests { get; set; }
+        public string ThirdEntranceTests { get; set; }
 
         public int AdmissionPlan { get; set; }
 
@@ -39,12 +39,6 @@ namespace ServerSelectionCommittee
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Enrollee> Enrollee { get; set; }
-
-        public virtual EntranceTests EntranceTests { get; set; }
-
-        public virtual EntranceTests EntranceTests1 { get; set; }
-
-        public virtual EntranceTests EntranceTests2 { get; set; }
 
         public virtual FormStudy FormStudy { get; set; }
 

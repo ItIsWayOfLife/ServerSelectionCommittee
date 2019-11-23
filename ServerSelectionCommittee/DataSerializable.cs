@@ -14,7 +14,6 @@ namespace ServerSelectionCommittee
         public List<DepartmentSend> DepartmentSends { get; set; }
         public List<DocumentsSend> DocumentsSends { get; set; }
         public List<EnrolleeSend> EnrolleeSends { get; set; }
-        public List<EntranceTestsSend> EntranceTestsSends { get; set; }
         public List<FacultySend> FacultySends { get; set; }
         public List<FormStudySend> FormStudySends { get; set; }
         public List<HistorySend> HistorySends { get; set; }
@@ -34,11 +33,11 @@ namespace ServerSelectionCommittee
             DepartmentSends = DepartmentSend.GetData();
             DocumentsSends = DocumentsSend.GetData();
             EnrolleeSends = EnrolleeSend.GetData();
-            EntranceTestsSends = EntranceTestsSend.GetData();
+
             FacultySends = FacultySend.GetData();
             FormStudySends = FormStudySend.GetData();
             HistorySends = HistorySend.GetData();
-            EntranceTestsSends = EntranceTestsSend.GetData();
+
             RelativeOrGuardianSends = RelativeOrGuardianSend.GetData();
             SpecialtySends = SpecialtySend.GetData();
             TrainingDirectionSends = TrainingDirectionSend.GetData();
