@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ServerSelectionCommittee
 {
     [Serializable]
-    class TrainingDirectionSend
+    public class TrainingDirectionSend
     {
         public int Id { get; set; }
         public int IdSpecialty { get; set; }

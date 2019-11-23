@@ -27,20 +27,14 @@ namespace ServerSelectionCommittee
 
 
             // запись в xml
-            List<SpecialtySend> spec = SpecialtySend.GetData();
-          
 
-          
+            BudgetOrChargeSend.DataSerializable();
 
-            XmlSerializer formatter = new XmlSerializer(typeof(List<SpecialtySend>));
 
-            // получаем поток, куда будем записывать сериализованный объект
-            using (FileStream fs = new FileStream("Spec.xml", FileMode.Create))
-            {
-                formatter.Serialize(fs, spec);
-            }
 
-           
+
+
+
 
             Console.WriteLine("End");
 

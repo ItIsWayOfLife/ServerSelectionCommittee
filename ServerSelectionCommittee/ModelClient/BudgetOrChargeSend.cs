@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
 {
     [Serializable]
-    class BudgetOrChargeSend
+    public class BudgetOrChargeSend
     {
         public int Id { get; set; }
         public string NameBudgetOrCharge { get; set; }
@@ -31,6 +33,19 @@ namespace ServerSelectionCommittee
             }
 
             return budgetOrChargeSends;
+        }
+
+        public static void DataSerializable()
+        {
+            List<BudgetOrChargeSend> budgetOrChargeSends = GetData();
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<BudgetOrChargeSend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("BudgetOrChargeSend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, budgetOrChargeSends);
+            }
         }
     }
 }

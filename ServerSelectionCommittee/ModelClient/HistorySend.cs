@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ServerSelectionCommittee
 {
     [Serializable]
-    class HistorySend
+    public class HistorySend
     {
         public int Id { get; set; }
         public int IdEnrollee { get; set; }
