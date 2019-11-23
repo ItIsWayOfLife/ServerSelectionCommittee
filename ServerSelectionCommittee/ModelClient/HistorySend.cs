@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
 {
@@ -35,6 +37,19 @@ namespace ServerSelectionCommittee
             }
 
             return historySends;
+        }
+
+        public static void DataSerializable()
+        {
+            List<HistorySend> historySends = GetData();
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<HistorySend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("HistorySend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, historySends);
+            }
         }
     }
 }

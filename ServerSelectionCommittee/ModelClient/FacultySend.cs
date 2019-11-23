@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
 {
@@ -33,6 +35,19 @@ namespace ServerSelectionCommittee
             }
 
             return facultySends;
+        }
+
+        public static void DataSerializable()
+        {
+            List<FacultySend> facultySends = GetData();
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<FacultySend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("FacultySend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, facultySends);
+            }
         }
     }
 }
