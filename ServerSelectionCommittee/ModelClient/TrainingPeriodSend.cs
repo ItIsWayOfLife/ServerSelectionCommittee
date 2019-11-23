@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
 {
@@ -29,7 +31,21 @@ namespace ServerSelectionCommittee
                         );
                 }
             }
+
             return trainingPeriodSends;
+        }
+
+        public static void DataSerializable()
+        {
+            List<TrainingPeriodSend> trainingPeriodSends = GetData();
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<TrainingPeriodSend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("TrainingPeriodSend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, trainingPeriodSends);
+            }
         }
     }
 }

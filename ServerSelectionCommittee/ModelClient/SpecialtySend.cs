@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
 {
@@ -38,6 +40,19 @@ namespace ServerSelectionCommittee
             }
 
             return spesSends;
+        }
+
+        public static void DataSerializable()
+        {
+            List<SpecialtySend> specialtySends = GetData();
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<SpecialtySend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("SpecialtySend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, specialtySends);
+            }
         }
     }
 }
