@@ -76,6 +76,14 @@ namespace ServerSelectionCommittee
 
                     }
 
+                    if (message.StartsWith("GetLevelEducation"))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetLevelEducationSend.GetData());
+                        //
+
+
+                    }
+
 
                     stream.Write(data, 0, data.Length);
                 }
