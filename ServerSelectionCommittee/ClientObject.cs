@@ -79,11 +79,13 @@ namespace ServerSelectionCommittee
                     if (message.StartsWith("GetLevelEducation"))
                     {
                         data = Encoding.Unicode.GetBytes(GetLevelEducationSend.GetData());
-                        //
-
-
                     }
 
+
+                    if (message.StartsWith("GetConcessionSend"))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetConcessionSend.GetData());
+                    }
 
                     stream.Write(data, 0, data.Length);
                 }
