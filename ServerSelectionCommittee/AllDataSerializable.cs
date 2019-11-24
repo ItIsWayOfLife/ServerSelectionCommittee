@@ -10,20 +10,19 @@ namespace ServerSelectionCommittee
     {
         public static void AllSerializable()
         {
-            BudgetOrChargeSend.DataSerializable();
+           
             ConcessionSend.DataSerializable();
             ContractEnSend.DataSerializable();
-            DepartmentSend.DataSerializable();
+            
             DocumentsSend.DataSerializable();
             EnrolleeSend.DataSerializable();
-            FacultySend.DataSerializable();
-            FormStudySend.DataSerializable();
+           
             HistorySend.DataSerializable();
             LevelEducationSend.DataSerializable();
             RelativeOrGuardianSend.DataSerializable();
-            SpecialtySend.DataSerializable();
+         
             TrainingDirectionSend.DataSerializable();
-            TrainingPeriodSend.DataSerializable();
+           
             UserSend.DataSerializable();
         }
 

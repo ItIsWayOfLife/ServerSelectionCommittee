@@ -55,15 +55,11 @@
     <Compile Include="AllDataSerializable.cs" />
     <Compile Include="ClientObject.cs" />
     <Compile Include="RequestsClient\LogIn.cs" />
-    <Compile Include="ModelClient\BudgetOrChargeSend.cs" />
     <Compile Include="ModelClient\ConcessionSend.cs" />
     <Compile Include="ModelClient\ContractEnSend.cs" />
     <Compile Include="DataContext.cs" />
-    <Compile Include="ModelClient\DepartmentSend.cs" />
     <Compile Include="ModelClient\DocumentsSend.cs" />
     <Compile Include="ModelClient\EnrolleeSend.cs" />
-    <Compile Include="ModelClient\FacultySend.cs" />
-    <Compile Include="ModelClient\FormStudySend.cs" />
     <Compile Include="ModelClient\HistorySend.cs" />
     <Compile Include="ModelClient\LevelEducationSend.cs" />
     <Compile Include="ModelDB\BudgetOrCharge.cs" />
@@ -83,10 +79,8 @@
     <Compile Include="ModelDB\TrainingDirection.cs" />
     <Compile Include="ModelDB\TrainingPeriod.cs" />
     <Compile Include="ModelDB\User.cs" />
-    <Compile Include="ModelClient\SpecialtySend.cs" />
     <Compile Include="ModelClient\RelativeOrGuardianSend.cs" />
     <Compile Include="ModelClient\TrainingDirectionSend.cs" />
-    <Compile Include="ModelClient\TrainingPeriodSend.cs" />
     <Compile Include="ModelClient\UserSend.cs" />
   </ItemGroup>
   <ItemGroup>
