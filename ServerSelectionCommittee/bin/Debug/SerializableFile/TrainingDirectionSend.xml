@@ -2,10 +2,17 @@
 <ArrayOfTrainingDirectionSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TrainingDirectionSend>
     <Id>1</Id>
-    <IdSpecialty>1</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 04</CodeSpecialty>
+    <CodeSpecialization>1–25 01 04 01 и 1–25 01 04 02</CodeSpecialization>
+    <FullNameSpecialty>Финансы  и кредит</FullNameSpecialty>
+    <ShortNameSpecialty>ФИК</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра финансов</FullNameDepartment>
+    <ShortNameDepartment>КФ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -13,10 +20,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>2</Id>
-    <IdSpecialty>1</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 04</CodeSpecialty>
+    <CodeSpecialization>1–25 01 04 01 и 1–25 01 04 02</CodeSpecialization>
+    <FullNameSpecialty>Финансы  и кредит</FullNameSpecialty>
+    <ShortNameSpecialty>ФИК</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра финансов</FullNameDepartment>
+    <ShortNameDepartment>КФ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -24,10 +38,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>5</Id>
-    <IdSpecialty>3</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 08</CodeSpecialty>
+    <CodeSpecialization>1–25 01 08–03 03</CodeSpecialization>
+    <FullNameSpecialty>Бухгалтерский учет, анализ и аудит в промышленности</FullNameSpecialty>
+    <ShortNameSpecialty>БУ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра бухгалтерского учёта, анализа и аудита</FullNameDepartment>
+    <ShortNameDepartment>КБУАиА</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -35,10 +56,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>6</Id>
-    <IdSpecialty>3</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 08</CodeSpecialty>
+    <CodeSpecialization>1–25 01 08–03 03</CodeSpecialization>
+    <FullNameSpecialty>Бухгалтерский учет, анализ и аудит в промышленности</FullNameSpecialty>
+    <ShortNameSpecialty>БУ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра бухгалтерского учёта, анализа и аудита</FullNameDepartment>
+    <ShortNameDepartment>КБУАиА</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -46,10 +74,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>7</Id>
-    <IdSpecialty>7</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 07</CodeSpecialty>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -57,10 +92,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>8</Id>
-    <IdSpecialty>7</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 07</CodeSpecialty>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -68,10 +110,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>9</Id>
-    <IdSpecialty>5</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-23 01 02</CodeSpecialty>
+    <CodeSpecialization>1-23 01 02-05 02</CodeSpecialization>
+    <FullNameSpecialty>Лингвистическое обеспечение межкуль-турных коммуникаций (внешнеэконо-мические связи)</FullNameSpecialty>
+    <ShortNameSpecialty>ЛМК</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра лингвистики и бизнес-коммуникаций</FullNameDepartment>
+    <ShortNameDepartment>КЛиБК</ShortNameDepartment>
     <FirstIdEntranceTests>Английский язык (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -79,10 +128,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>10</Id>
-    <IdSpecialty>5</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-23 01 02</CodeSpecialty>
+    <CodeSpecialization>1-23 01 02-05 02</CodeSpecialization>
+    <FullNameSpecialty>Лингвистическое обеспечение межкуль-турных коммуникаций (внешнеэконо-мические связи)</FullNameSpecialty>
+    <ShortNameSpecialty>ЛМК</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра лингвистики и бизнес-коммуникаций</FullNameDepartment>
+    <ShortNameDepartment>КЛиБК</ShortNameDepartment>
     <FirstIdEntranceTests>Английский язык (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>История Беларуси (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -90,10 +146,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>11</Id>
-    <IdSpecialty>6</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–40 05 01</CodeSpecialty>
+    <CodeSpecialization>1–40 05 01–02 02</CodeSpecialization>
+    <FullNameSpecialty>Информационные технологии финансо-во-кредитной системы</FullNameSpecialty>
+    <ShortNameSpecialty>ИТ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра высшей математики и информационных технологий</FullNameDepartment>
+    <ShortNameDepartment>КВМиИТ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физика (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -101,10 +164,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>12</Id>
-    <IdSpecialty>6</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–40 05 01</CodeSpecialty>
+    <CodeSpecialization>1–40 05 01–02 02</CodeSpecialization>
+    <FullNameSpecialty>Информационные технологии финансо-во-кредитной системы</FullNameSpecialty>
+    <ShortNameSpecialty>ИТ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра высшей математики и информационных технологий</FullNameDepartment>
+    <ShortNameDepartment>КВМиИТ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физика (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -112,60 +182,102 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>13</Id>
-    <IdSpecialty>6</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>2</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>сокращённый срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–40 05 01</CodeSpecialty>
+    <CodeSpecialization>1–40 05 01–02 02</CodeSpecialization>
+    <FullNameSpecialty>Информационные технологии финансо-во-кредитной системы</FullNameSpecialty>
+    <ShortNameSpecialty>ИТ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра высшей математики и информационных технологий</FullNameDepartment>
+    <ShortNameDepartment>КВМиИТ</ShortNameDepartment>
     <FirstIdEntranceTests>Основы алгоритмизации и програм-мирования (ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Базы данных и системы управления базами данных (ПЭ)</SecondEntranceTests>
     <AdmissionPlan>3</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>14</Id>
-    <IdSpecialty>6</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>2</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>сокращённый срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–40 05 01</CodeSpecialty>
+    <CodeSpecialization>1–40 05 01–02 02</CodeSpecialization>
+    <FullNameSpecialty>Информационные технологии финансо-во-кредитной системы</FullNameSpecialty>
+    <ShortNameSpecialty>ИТ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет банковского дела</FullNameFaculty>
+    <ShortNameFaculty>ФБД</ShortNameFaculty>
+    <FullNameDepartment>Кафедра высшей математики и информационных технологий</FullNameDepartment>
+    <ShortNameDepartment>КВМиИТ</ShortNameDepartment>
     <FirstIdEntranceTests>Основы алгоритмизации и програм-мирования (ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Базы данных и системы управления базами данных (ПЭ)</SecondEntranceTests>
     <AdmissionPlan>10</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>17</Id>
-    <IdSpecialty>7</IdSpecialty>
-    <IdFormStudy>2</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>заочная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 07</CodeSpecialty>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
     <AdmissionPlan>4</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>18</Id>
-    <IdSpecialty>7</IdSpecialty>
-    <IdFormStudy>2</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>заочная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 07</CodeSpecialty>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
     <AdmissionPlan>7</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>19</Id>
-    <IdSpecialty>7</IdSpecialty>
-    <IdFormStudy>2</IdFormStudy>
-    <IdTrainingPeriod>2</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>заочная</NameFormStudy>
+    <NameTrainingPeriod>сокращённый срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1–25 01 07</CodeSpecialty>
+    <CodeSpecialization>1-25 01 07 11   и  1-25 01 07</CodeSpecialization>
+    <FullNameSpecialty>Экономика и управление на предприя-тии</FullNameSpecialty>
+    <ShortNameSpecialty>ЭУП</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Основы менеджмента (ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Экономика организации (предприя-тия) (ПЭ)</SecondEntranceTests>
     <AdmissionPlan>8</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>20</Id>
-    <IdSpecialty>8</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-26 02 03</CodeSpecialty>
+    <CodeSpecialization>1-26 02 03 07</CodeSpecialization>
+    <FullNameSpecialty>Маркетинг</FullNameSpecialty>
+    <ShortNameSpecialty>МР</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -173,10 +285,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>21</Id>
-    <IdSpecialty>8</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-26 02 03</CodeSpecialty>
+    <CodeSpecialization>1-26 02 03 07</CodeSpecialization>
+    <FullNameSpecialty>Маркетинг</FullNameSpecialty>
+    <ShortNameSpecialty>МР</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -184,10 +303,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>22</Id>
-    <IdSpecialty>10</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-26 02 01</CodeSpecialty>
+    <CodeSpecialization> 1-26 02 02 06</CodeSpecialization>
+    <FullNameSpecialty>Менеджмент (в сфере международного туризма)</FullNameSpecialty>
+    <ShortNameSpecialty>МН</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -195,10 +321,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>23</Id>
-    <IdSpecialty>10</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-26 02 01</CodeSpecialty>
+    <CodeSpecialization> 1-26 02 02 06</CodeSpecialization>
+    <FullNameSpecialty>Менеджмент (в сфере международного туризма)</FullNameSpecialty>
+    <ShortNameSpecialty>МН</ShortNameSpecialty>
+    <FullNameFaculty>Экономический факультет</FullNameFaculty>
+    <ShortNameFaculty>ЭФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра экономики и бизнеса</FullNameDepartment>
+    <ShortNameDepartment>КЭиБ</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -206,10 +339,19 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>24</Id>
-    <IdSpecialty>11</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-31 01 01</CodeSpecialty>
+    <CodeSpecialization>1-31 01 01-03</CodeSpecialization>
+    <FullNameSpecialty>Биология
+(биотехнология) </FullNameSpecialty>
+    <ShortNameSpecialty>БИОТ</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра биотехнологии</FullNameDepartment>
+    <ShortNameDepartment>КБ</ShortNameDepartment>
     <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Иностранный язык (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -217,10 +359,19 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>25</Id>
-    <IdSpecialty>11</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-31 01 01</CodeSpecialty>
+    <CodeSpecialization>1-31 01 01-03</CodeSpecialization>
+    <FullNameSpecialty>Биология
+(биотехнология) </FullNameSpecialty>
+    <ShortNameSpecialty>БИОТ</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра биотехнологии</FullNameDepartment>
+    <ShortNameDepartment>КБ</ShortNameDepartment>
     <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Биология (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -228,10 +379,19 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>26</Id>
-    <IdSpecialty>11</IdSpecialty>
-    <IdFormStudy>2</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>заочная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-31 01 01</CodeSpecialty>
+    <CodeSpecialization>1-31 01 01-03</CodeSpecialization>
+    <FullNameSpecialty>Биология
+(биотехнология) </FullNameSpecialty>
+    <ShortNameSpecialty>БИОТ</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра биотехнологии</FullNameDepartment>
+    <ShortNameDepartment>КБ</ShortNameDepartment>
     <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Биология (ЦТ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -239,20 +399,36 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>27</Id>
-    <IdSpecialty>13</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-74 03 03</CodeSpecialty>
+    <CodeSpecialization>1-74 03 03 02</CodeSpecialization>
+    <FullNameSpecialty>Промышленное рыбоводство </FullNameSpecialty>
+    <ShortNameSpecialty>ПР</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра промышленного рыбоводства и переработки рыбной продукции</FullNameDepartment>
+    <ShortNameDepartment>КПРиПРП</ShortNameDepartment>
     <FirstIdEntranceTests>Химия(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Биология(ПЭ)</SecondEntranceTests>
     <AdmissionPlan>4</AdmissionPlan>
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>28</Id>
-    <IdSpecialty>14</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-75 02 01</CodeSpecialty>
+    <CodeSpecialization>1-75 02 01  01-02</CodeSpecialization>
+    <FullNameSpecialty>Садово-парковое строительство</FullNameSpecialty>
+    <ShortNameSpecialty>СПС</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра ландшафтного проектирования</FullNameDepartment>
+    <ShortNameDepartment>КЛП</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Химия(ПЭ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -260,10 +436,18 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>29</Id>
-    <IdSpecialty>14</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-75 02 01</CodeSpecialty>
+    <CodeSpecialization>1-75 02 01  01-02</CodeSpecialization>
+    <FullNameSpecialty>Садово-парковое строительство</FullNameSpecialty>
+    <ShortNameSpecialty>СПС</ShortNameSpecialty>
+    <FullNameFaculty>Биотехнологический
+факультет</FullNameFaculty>
+    <ShortNameFaculty>БФ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра ландшафтного проектирования</FullNameDepartment>
+    <ShortNameDepartment>КЛП</ShortNameDepartment>
     <FirstIdEntranceTests>Математика (ЦТ)</FirstIdEntranceTests>
     <SecondEntranceTests>Химия(ПЭ)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -271,10 +455,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>30</Id>
-    <IdSpecialty>18</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 01 03</CodeSpecialty>
+    <CodeSpecialization>1-88 01 03-02</CodeSpecialization>
+    <FullNameSpecialty>Физическая реабилитация и эрготера-пия (эрготерапия)</FullNameSpecialty>
+    <ShortNameSpecialty>ФРЭЭ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -282,10 +473,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>31</Id>
-    <IdSpecialty>18</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 01 03</CodeSpecialty>
+    <CodeSpecialization>1-88 01 03-02</CodeSpecialization>
+    <FullNameSpecialty>Физическая реабилитация и эрготера-пия (эрготерапия)</FullNameSpecialty>
+    <ShortNameSpecialty>ФРЭЭ</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -293,10 +491,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>32</Id>
-    <IdSpecialty>19</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 01 02</CodeSpecialty>
+    <CodeSpecialization>1-88 01 02-01</CodeSpecialization>
+    <FullNameSpecialty>Оздоровительная и адаптивная физи-ческая культура (оздоровительная)</FullNameSpecialty>
+    <ShortNameSpecialty>ОАФКО</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -304,10 +509,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>33</Id>
-    <IdSpecialty>19</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 01 02</CodeSpecialty>
+    <CodeSpecialization>1-88 01 02-01</CodeSpecialization>
+    <FullNameSpecialty>Оздоровительная и адаптивная физи-ческая культура (оздоровительная)</FullNameSpecialty>
+    <ShortNameSpecialty>ОАФКО</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -315,10 +527,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>34</Id>
-    <IdSpecialty>19</IdSpecialty>
-    <IdFormStudy>2</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>заочная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 01 02</CodeSpecialty>
+    <CodeSpecialization>1-88 01 02-01</CodeSpecialization>
+    <FullNameSpecialty>Оздоровительная и адаптивная физи-ческая культура (оздоровительная)</FullNameSpecialty>
+    <ShortNameSpecialty>ОАФКО</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -326,10 +545,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>35</Id>
-    <IdSpecialty>21</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>1</IdBudgetOrCharge>
+    <NameBudgetOrCharge>бюджет</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 02 01</CodeSpecialty>
+    <CodeSpecialization>1-88 02 01-01</CodeSpecialization>
+    <FullNameSpecialty>Спортивно-педагогическая деятель-ность (тренерская работа с указанием вида спорта)</FullNameSpecialty>
+    <ShortNameSpecialty>СПД</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>
@@ -337,10 +563,17 @@
   </TrainingDirectionSend>
   <TrainingDirectionSend>
     <Id>36</Id>
-    <IdSpecialty>21</IdSpecialty>
-    <IdFormStudy>1</IdFormStudy>
-    <IdTrainingPeriod>1</IdTrainingPeriod>
-    <IdBudgetOrCharge>2</IdBudgetOrCharge>
+    <NameBudgetOrCharge>платно</NameBudgetOrCharge>
+    <NameFormStudy>дневная</NameFormStudy>
+    <NameTrainingPeriod>полный срок обучения</NameTrainingPeriod>
+    <CodeSpecialty>1-88 02 01</CodeSpecialty>
+    <CodeSpecialization>1-88 02 01-01</CodeSpecialization>
+    <FullNameSpecialty>Спортивно-педагогическая деятель-ность (тренерская работа с указанием вида спорта)</FullNameSpecialty>
+    <ShortNameSpecialty>СПД</ShortNameSpecialty>
+    <FullNameFaculty>Факультет организации здорового образа жизни</FullNameFaculty>
+    <ShortNameFaculty>ФОЗОЖ</ShortNameFaculty>
+    <FullNameDepartment>Кафедра оздоровительной и адаптивной физической культуры</FullNameDepartment>
+    <ShortNameDepartment>КОиАФК</ShortNameDepartment>
     <FirstIdEntranceTests>Биология(ПЭ)</FirstIdEntranceTests>
     <SecondEntranceTests>Физическая культура и спорт  (экзамен в университете)</SecondEntranceTests>
     <ThirdEntranceTests>Белорусский (русский) язык (ЦТ)</ThirdEntranceTests>

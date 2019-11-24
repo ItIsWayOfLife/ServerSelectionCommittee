@@ -47,13 +47,22 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(LogIn.LogInTo(message));
                         //
                         //
-
                         // Отправляем сообщение обратно
                         stream.Write(data, 0, data.Length);
 
                     }
 
+                    if (message.StartsWith("GetTD"))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetTrainingDirectionSend.GetTD());
+                        //
+                        //
+                        // Отправляем сообщение обратно
+                        stream.Write(data, 0, data.Length);
+
                     }
+
+                }
                 }
             catch (Exception ex)
             {
