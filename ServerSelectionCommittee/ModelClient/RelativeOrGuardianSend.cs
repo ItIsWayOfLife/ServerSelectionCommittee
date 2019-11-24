@@ -78,5 +78,17 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, relativeOrGuardianSends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/RelativeOrGuardianSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
     }
 }

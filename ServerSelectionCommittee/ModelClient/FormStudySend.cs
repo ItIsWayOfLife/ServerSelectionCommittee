@@ -47,5 +47,17 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, formStudySends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/FormStudySend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
     }
 }

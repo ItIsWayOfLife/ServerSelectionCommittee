@@ -51,5 +51,18 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, historySends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/HistorySend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
+
     }
 }

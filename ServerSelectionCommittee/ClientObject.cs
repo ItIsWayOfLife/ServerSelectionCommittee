@@ -40,17 +40,17 @@ namespace ServerSelectionCommittee
                     string message = response.ToString();
                     Console.WriteLine(message);
 
-                    if (message == "doc")
-                    {
-
-                        DocumentsSend.DataSerializable();
-
-                        data = Encoding.Unicode.GetBytes(DocumentsSend.ReadToXml());
-                        stream.Write(data, 0, data.Length);
+                    //
+                    //
+                    if (message.StartsWith("LoginTo"))
+                    {                     
+                        data = Encoding.Unicode.GetBytes(LogIn.LogInTo(message));
+                        //
+                        //
 
                         // Отправляем сообщение обратно
-                        data = Encoding.Unicode.GetBytes(message);
                         stream.Write(data, 0, data.Length);
+
                     }
 
                     }

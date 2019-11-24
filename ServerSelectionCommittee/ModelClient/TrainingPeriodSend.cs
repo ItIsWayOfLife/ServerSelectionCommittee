@@ -47,5 +47,17 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, trainingPeriodSends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/TrainingPeriodSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
     }
 }

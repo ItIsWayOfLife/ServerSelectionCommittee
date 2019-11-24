@@ -105,5 +105,17 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, enrolleeSends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/EnrolleeSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
     }
 }

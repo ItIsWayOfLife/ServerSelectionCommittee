@@ -61,5 +61,17 @@ namespace ServerSelectionCommittee
                 formatter.Serialize(fs, trainingDirectionSends);
             }
         }
+
+        public static string ReadToXml()
+        {
+            string xmlData = null;
+
+            using (StreamReader reader = new StreamReader("SerializableFile/TrainingDirectionSend.xml"))
+            {
+                xmlData = reader.ReadToEnd();
+            }
+
+            return xmlData;
+        }
     }
 }
