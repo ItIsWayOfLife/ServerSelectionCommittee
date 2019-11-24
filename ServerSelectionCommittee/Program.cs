@@ -45,12 +45,7 @@ namespace ServerSelectionCommittee
             }
 
 
-            //TrainingDirectionSend.GetData();
-            // Console.WriteLine(TrainingDirectionSend.ReadToXml());
-
-            // Console.WriteLine("End");
-
-            // Console.ReadKey();
+        //    Console.ReadKey();
         }
     }
 }

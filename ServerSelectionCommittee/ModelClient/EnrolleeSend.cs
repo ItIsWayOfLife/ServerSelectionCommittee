@@ -13,8 +13,8 @@ namespace ServerSelectionCommittee
     {
         public int Id { get; set; }
         public int IdDirectionTraining { get; set; }
-        public int IdLevelEducation { get; set; }
-        public int? IdConcession { get; set; }
+        public string NameLevelEducation { get; set; }
+        public string NameConcession { get; set; }
         public string DescriptionConcession { get; set; }
         public DateTime EnrolleeDateOfRegistration { get; set; }
         public string EnrolleeFirstname { get; set; }
@@ -56,8 +56,8 @@ namespace ServerSelectionCommittee
                         {
                             Id = e.IdEnrollee,
                             IdDirectionTraining = e.IdDirectionTraining,
-                            IdLevelEducation = e.IdLevelEducation,
-                            IdConcession =e.IdConcession,
+                            NameLevelEducation = e?.LevelEducation?.NameLevelEducation,
+                            NameConcession =e?.Concession?.NameConcession,
                             DescriptionConcession = e.DescriptionConcession,
                             EnrolleeDateOfRegistration =e.EnrolleeDateOfRegistration,
                             EnrolleeFirstname = e.EnrolleeFirstname,

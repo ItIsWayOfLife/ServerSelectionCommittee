@@ -52,17 +52,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllDataSerializable.cs" />
     <Compile Include="ClientObject.cs" />
-    <Compile Include="GetTrainingDirectionSend.cs" />
+    <Compile Include="RequestsClient\GetEnrollee.cs" />
+    <Compile Include="RequestsClient\GetTrainingDirectionSend.cs" />
     <Compile Include="RequestsClient\LogIn.cs" />
-    <Compile Include="ModelClient\ConcessionSend.cs" />
     <Compile Include="ModelClient\ContractEnSend.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="ModelClient\DocumentsSend.cs" />
     <Compile Include="ModelClient\EnrolleeSend.cs" />
     <Compile Include="ModelClient\HistorySend.cs" />
-    <Compile Include="ModelClient\LevelEducationSend.cs" />
     <Compile Include="ModelDB\BudgetOrCharge.cs" />
     <Compile Include="ModelDB\Concession.cs" />
     <Compile Include="ModelDB\ContractEn.cs" />

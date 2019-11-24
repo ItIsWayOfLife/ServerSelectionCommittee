@@ -37,13 +37,12 @@ namespace ServerSelectionCommittee
 
             if (userSend != null)
             {
-
                 userSend?.WriteToXml();
                 return userSend?.ReadToXml();
             }
             else
             {
-                return "error";
+                return "Ошибка. Пользователь не наден";
             }
         }
 

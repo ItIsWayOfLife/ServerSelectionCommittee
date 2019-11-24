@@ -42,26 +42,42 @@ namespace ServerSelectionCommittee
 
                     //
                     //
+
+                    // вход 
                     if (message.StartsWith("LoginTo"))
                     {                     
                         data = Encoding.Unicode.GetBytes(LogIn.LogInTo(message));
                         //
                         //
                         // Отправляем сообщение обратно
-                        stream.Write(data, 0, data.Length);
+                       // stream.Write(data, 0, data.Length);
 
                     }
 
+                    // данные на направл подготовки
                     if (message.StartsWith("GetTD"))
                     {
                         data = Encoding.Unicode.GetBytes(GetTrainingDirectionSend.GetTD());
                         //
                         //
                         // Отправляем сообщение обратно
-                        stream.Write(data, 0, data.Length);
+                      //  stream.Write(data, 0, data.Length);
 
                     }
 
+                    // данные абитуриентов
+                    if (message.StartsWith("GetEnrollee"))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetEnrollee.GetData());
+                        //
+                        //
+                        // Отправляем сообщение обратно
+                        //  stream.Write(data, 0, data.Length);
+
+                    }
+
+
+                    stream.Write(data, 0, data.Length);
                 }
                 }
             catch (Exception ex)
