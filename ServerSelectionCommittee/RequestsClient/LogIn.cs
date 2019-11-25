@@ -49,8 +49,8 @@ namespace ServerSelectionCommittee
         // запись в xml
         public static void WriteToXml(string words)
         {
-            File.Delete("SerializableFile/LogIn.xml");
-            using (StreamWriter writer = new StreamWriter("SerializableFile/LogIn.xml"))
+            File.Delete("DeserializeFile/LogIn.xml");
+            using (StreamWriter writer = new StreamWriter("DeserializeFile/LogIn.xml"))
             {
                 writer.Write(words);
             }
@@ -58,7 +58,7 @@ namespace ServerSelectionCommittee
         // дисериализаця
         public static LogIn DeserializeFileXml()
         {
-            using (FileStream fs = new FileStream("SerializableFile/LogIn.xml", FileMode.Open))
+            using (FileStream fs = new FileStream("DeserializeFile/LogIn.xml", FileMode.Open))
             {
                 XmlSerializer formatter = new XmlSerializer(typeof(LogIn));
 

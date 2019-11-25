@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEnrollee.cs" />
     <Compile Include="ClientObject.cs" />
     <Compile Include="RequestsClient\GetConcessionSend.cs" />
     <Compile Include="RequestsClient\GetLevelEducationSend.cs" />
