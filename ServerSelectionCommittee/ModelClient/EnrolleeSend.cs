@@ -117,5 +117,74 @@ namespace ServerSelectionCommittee
 
             return xmlData;
         }
+
+        public string AddDB()
+        {
+            string mess = null;
+
+            Console.WriteLine("Start");
+
+         //   try
+           // {
+                using (DataContext db = new DataContext())
+                {
+                int? idCon = null;
+                if  (NameConcession!= "без льготы")
+                    idCon= db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession; 
+
+
+                Enrollee enrollee = new Enrollee();
+                    enrollee.EnrolleeLastname = EnrolleeLastname;
+                    enrollee.EnrolleeFirstname = EnrolleeFirstname;
+                    enrollee.EnrolleePatronymic = EnrolleePatronymic;
+                enrollee.IdDirectionTraining = IdDirectionTraining;
+                    enrollee.IdLevelEducation = db.LevelEducations.Where(p => p.NameLevelEducation == NameLevelEducation).First().IdLevelEducation;
+                enrollee.IdConcession = idCon;
+                    enrollee.DescriptionConcession = DescriptionConcession;
+                    enrollee.EnrolleeAdditionalInformation = EnrolleeAdditionalInformation;
+                    enrollee.EnrolleeAddress = EnrolleeAddress;
+                    enrollee.EnrolleeAddressLastPlaceOfStudy = EnrolleeAddressLastPlaceOfStudy;
+                    enrollee.EnrolleeAverageGradeOfCertificateOrDiploma = EnrolleeAverageGradeOfCertificateOrDiploma;
+                    enrollee.EnrolleeDateExpiry = (DateTime)EnrolleeDateExpiry;
+                    enrollee.EnrolleeDateOfBirth =  (DateTime)EnrolleeDateOfBirth;
+                    enrollee.EnrolleeDateOfIssue = (DateTime)EnrolleeDateOfIssue;
+                enrollee.EnrolleeDateOfRegistration = DateTime.Now;
+                    enrollee.EnrolleeEducation = EnrolleeEducation;
+                    enrollee.EnrolleeEmail = EnrolleeEmail;
+                    enrollee.EnrolleeGraduationDate = EnrolleeGraduationDate;
+                    enrollee.EnrolleeLastPlaceOfStudy = EnrolleeLastPlaceOfStudy;
+                    enrollee.EnrolleeNumberCertificateOrDiploma = EnrolleeNumberCertificateOrDiploma;
+                    enrollee.EnrolleePassportIssuedBy = EnrolleePassportIssuedBy;
+                    enrollee.EnrolleePassportNumber = EnrolleePassportNumber;
+                    enrollee.EnrolleePassportPersonalNumber = EnrolleePassportPersonalNumber;
+                    enrollee.EnrolleePassportSeries = EnrolleePassportSeries;
+                    enrollee.EnrolleePhoneNumber = EnrolleePhoneNumber;
+                    enrollee.EnrolleePostcode = EnrolleePostcode;
+                    enrollee.EnrolleeScoreOfTheFirstEntranceTest = EnrolleeScoreOfTheFirstEntranceTest;
+                    enrollee.EnrolleeScoreOfTheSecondEntranceTest = EnrolleeScoreOfTheSecondEntranceTest;
+                    enrollee.EnrolleeScoreOfTheThirdEntranceTest = EnrolleeScoreOfTheThirdEntranceTest;
+                    enrollee.EnrolleeSex = EnrolleeSex;
+
+                Console.WriteLine("__");
+                db.Enrollees.Add(enrollee);
+                    db.SaveChanges();
+
+
+                Console.WriteLine("End");
+
+                mess = "Данные успешно добавленны";
+
+                    Console.WriteLine(mess);
+                }
+           // }
+          //  catch (Exception ex)
+           // {
+             //   mess = "Ошибка "+ex.ToString();
+             //
+               // Console.WriteLine(mess);
+            //}
+
+            return mess;
+        }
     }
 }

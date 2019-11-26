@@ -87,6 +87,12 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(GetConcessionSend.GetData());
                     }
 
+
+                    if (message.StartsWith("AddEnrollee"))
+                    {
+                        data = Encoding.Unicode.GetBytes(AddEnrollee.AddData(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }
