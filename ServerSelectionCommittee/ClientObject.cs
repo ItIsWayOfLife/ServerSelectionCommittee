@@ -93,6 +93,11 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(AddEnrollee.AddData(message));
                     }
 
+                    if (message.StartsWith("DeleteEnrollee "))
+                    {
+                        data = Encoding.Unicode.GetBytes(DeleteEnrollee.DeleteEn(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }
