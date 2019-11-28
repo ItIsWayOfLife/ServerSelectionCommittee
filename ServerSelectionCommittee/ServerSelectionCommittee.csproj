@@ -52,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEnrollee.cs" />
+    <Compile Include="RequestsClient\AddEnrollee.cs" />
     <Compile Include="ClientObject.cs" />
     <Compile Include="DeleteEnrollee.cs" />
     <Compile Include="RequestsClient\GetConcessionSend.cs" />
@@ -87,6 +87,7 @@
     <Compile Include="ModelClient\RelativeOrGuardianSend.cs" />
     <Compile Include="ModelClient\TrainingDirectionSend.cs" />
     <Compile Include="ModelClient\UserSend.cs" />
+    <Compile Include="RequestsClient\UpdateEnrollee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

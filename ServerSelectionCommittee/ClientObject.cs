@@ -98,6 +98,11 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(DeleteEnrollee.DeleteEn(message));
                     }
 
+                    if (message.StartsWith("UpdateEnrollee "))
+                    {
+                        data = Encoding.Unicode.GetBytes(UpdateEnrollee.UpdateData(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }
