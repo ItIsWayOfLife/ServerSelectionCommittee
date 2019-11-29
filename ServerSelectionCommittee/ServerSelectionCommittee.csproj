@@ -88,6 +88,7 @@
     <Compile Include="ModelClient\TrainingDirectionSend.cs" />
     <Compile Include="ModelClient\UserSend.cs" />
     <Compile Include="RequestsClient\UpdateEnrollee.cs" />
+    <Compile Include="ReturnLastIdEn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -12,9 +12,6 @@ namespace ServerSelectionCommittee
     {
         public static string AddData(string message)
         {
-            // ответ сервера
-            string response = null;
-
             // удаляем заголовок ("LogInTo ")
             message = message.Remove(0, 12);
 

@@ -103,6 +103,14 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(UpdateEnrollee.UpdateData(message));
                     }
 
+                    // возвращает id посл добавл абит
+                    if (message.StartsWith("ReturnLastIdEn "))
+                    {
+                        data = Encoding.Unicode.GetBytes(ReturnLastIdEn.ReturnId());
+                    }
+
+                  
+
                     stream.Write(data, 0, data.Length);
                 }
                 }
