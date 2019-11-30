@@ -129,6 +129,12 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(DeleteDoc.DeleteByIdDoc(message));
                     }
 
+                    // обнов док
+                    if (message.StartsWith("UpdateDoc "))
+                    {
+                        data = Encoding.Unicode.GetBytes(UpdateDoc.UpdateData(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }

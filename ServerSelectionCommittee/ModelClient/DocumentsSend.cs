@@ -170,5 +170,39 @@ namespace ServerSelectionCommittee
 
             return mess;
         }
+
+
+        public string UpdateDB()
+        {
+            string mess = null;
+
+            try
+            {
+                using (DataContext db = new DataContext())
+                {
+                    Documents documents = db.Documents.Where(p => p.IdDocument == this.Id).First();
+
+                    db.Documents.Attach(documents);
+
+                    documents.NameDocument = NameDocument;
+                    documents.NumberDocument = NumberDocument;
+                    documents.Description = Description;
+                  
+                    db.SaveChanges();
+
+                    mess = "Данные успешно изменены";
+
+                    Console.WriteLine(mess);
+                }
+            }
+            catch (Exception ex)
+            {
+                mess = "Ошибка " + ex.ToString();
+
+                Console.WriteLine(mess);
+            }
+
+            return mess;
+        }
     }
 }
