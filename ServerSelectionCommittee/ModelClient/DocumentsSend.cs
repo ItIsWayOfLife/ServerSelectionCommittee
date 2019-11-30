@@ -89,8 +89,13 @@ namespace ServerSelectionCommittee
 
             foreach (DocumentsSend d in documentsSends)
             {
-                documents.Add(new Documents() { NameDocument = d.NameDocument, Description = d.Description, NumberDocument = d.NumberDocument,
-                    IdEnrollee = d.IdEnrollee});
+                documents.Add(new Documents()
+                {
+                    NameDocument = d.NameDocument,
+                    Description = d.Description,
+                    NumberDocument = d.NumberDocument,
+                    IdEnrollee = d.IdEnrollee
+                });
             }
 
             using (DataContext db = new DataContext())
@@ -98,6 +103,59 @@ namespace ServerSelectionCommittee
                 db.Documents.AddRange(documents);
                 db.SaveChanges();
             }
+        }
+
+
+        public static string AddDB(List<DocumentsSend> documents)
+        {
+            Console.WriteLine("Start");
+
+            string mess = null;
+
+            Console.WriteLine("1");
+            try
+            {
+                using (DataContext db = new DataContext())
+                {
+                    Documents doc = null;
+
+                    Console.WriteLine(db.Enrollees.OrderByDescending(p => p.IdEnrollee).First().IdEnrollee.ToString());
+
+                    foreach (DocumentsSend d in documents)
+                    {
+                        Console.WriteLine("2");
+                         doc = new Documents()
+                        {
+                            IdEnrollee = Convert.ToInt32(db.Enrollees.OrderByDescending(p => p.IdEnrollee).First().IdEnrollee),
+                            NameDocument = d.NameDocument,
+                            Description = d.Description,
+                            NumberDocument = d.NumberDocument
+                        };
+                    }
+
+                    Console.WriteLine($"Doc info idEnr: {doc.IdEnrollee}; nameDoc: {doc.NameDocument}; des: {doc.Description}; number: {doc.NumberDocument}");
+
+                    db.Documents.Add(doc);
+
+                    Console.WriteLine("4");
+
+                    Console.WriteLine("5");
+
+
+              
+                    db.SaveChanges();
+
+                    Console.WriteLine("6");
+
+                    mess = "Успешно сохранены";
+                }
+            }
+            catch (Exception ex)
+            {
+                mess = "Ошибка: "+ex.ToString();
+            }
+
+            return mess;
         }
     }
 }

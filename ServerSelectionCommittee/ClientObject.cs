@@ -109,7 +109,13 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(ReturnLastIdEn.ReturnId());
                     }
 
-                  
+                 
+
+                          // добавляет доки
+                    if (message.StartsWith("AddDoc "))
+                    {
+                        data = Encoding.Unicode.GetBytes(AddDoc.AddData(message));
+                    }
 
                     stream.Write(data, 0, data.Length);
                 }
