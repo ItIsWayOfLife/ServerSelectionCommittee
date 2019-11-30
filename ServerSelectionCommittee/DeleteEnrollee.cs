@@ -19,6 +19,8 @@ namespace ServerSelectionCommittee
                 // id удал абит
                 int id = Convert.ToInt32(message);
 
+                DeleteDoc.DeleteByIdEnr(id);
+
                 using (DataContext data = new DataContext())
                 {
                     Enrollee enrolleeDel = data.Enrollees.Where(p => p.IdEnrollee == id).First();
