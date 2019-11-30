@@ -54,6 +54,19 @@ namespace ServerSelectionCommittee
             }
         }
 
+        public static void DataSerializable(List<DocumentsSend> documentsSend_)
+        {
+            List<DocumentsSend> documentsSends = documentsSend_;
+
+            XmlSerializer formatter = new XmlSerializer(typeof(List<DocumentsSend>));
+
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("SerializableFile/DocumentsSend.xml", FileMode.Create))
+            {
+                formatter.Serialize(fs, documentsSends);
+            }
+        }
+
         public static List<DocumentsSend> DataDeserialize()
         {
             List<DocumentsSend> documentsSends = null;

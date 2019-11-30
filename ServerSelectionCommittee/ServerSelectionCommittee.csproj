@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDoc.cs" />
+    <Compile Include="GetDoc.cs" />
     <Compile Include="RequestsClient\AddEnrollee.cs" />
     <Compile Include="ClientObject.cs" />
     <Compile Include="DeleteEnrollee.cs" />

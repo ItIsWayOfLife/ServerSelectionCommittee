@@ -117,6 +117,12 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(AddDoc.AddData(message));
                     }
 
+                    // возвращает докум
+                    if (message.StartsWith("GetDoc "))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetDoc.GetData(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }
