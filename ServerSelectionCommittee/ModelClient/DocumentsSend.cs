@@ -139,7 +139,7 @@ namespace ServerSelectionCommittee
                         Console.WriteLine("2");
                          doc = new Documents()
                         {
-                            IdEnrollee = Convert.ToInt32(db.Enrollees.OrderByDescending(p => p.IdEnrollee).First().IdEnrollee),
+                            IdEnrollee = d.IdEnrollee,
                             NameDocument = d.NameDocument,
                             Description = d.Description,
                             NumberDocument = d.NumberDocument

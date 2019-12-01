@@ -22,7 +22,6 @@ namespace ServerSelectionCommittee
             List<DocumentsSend> documents = DeserializeFileXml();
 
             return DocumentsSend.AddDB(documents);
-
         }
 
         // запись в xml
