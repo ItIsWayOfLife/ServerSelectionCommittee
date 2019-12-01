@@ -37,8 +37,15 @@ namespace ServerSelectionCommittee
 
             if (userSend != null)
             {
-                userSend?.WriteToXml();
-                return userSend?.ReadToXml();
+                if (StoreUser.AddUser(userSend.Id))
+                {
+                    userSend?.WriteToXml();
+                    return userSend?.ReadToXml();
+                }
+                else
+                {
+                    return "Ошибка. Пользователь уже авторизован";
+                }
             }
             else
             {

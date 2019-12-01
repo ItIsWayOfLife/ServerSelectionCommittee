@@ -92,6 +92,7 @@
     <Compile Include="ModelClient\UserSend.cs" />
     <Compile Include="RequestsClient\UpdateEnrollee.cs" />
     <Compile Include="ReturnLastIdEn.cs" />
+    <Compile Include="StoreUser.cs" />
     <Compile Include="UpdateDoc.cs" />
   </ItemGroup>
   <ItemGroup>
