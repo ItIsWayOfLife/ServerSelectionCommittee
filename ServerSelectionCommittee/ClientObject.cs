@@ -135,6 +135,18 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(UpdateDoc.UpdateData(message));
                     }
 
+                    // возвр историю
+                    if (message.StartsWith("GetHis "))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetHistorySend.GetData());
+                    }
+
+                    // возвр историю
+                    if (message.StartsWith("OutUser "))
+                    {
+                        data = Encoding.Unicode.GetBytes(StoreUser.OutUser(message));
+                    }
+
                     stream.Write(data, 0, data.Length);
                 }
                 }

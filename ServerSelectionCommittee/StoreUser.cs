@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ServerSelectionCommittee
 {
@@ -34,6 +35,18 @@ namespace ServerSelectionCommittee
             }
 
             return bl;
+        }
+
+        public static string OutUser(string mess)
+        {
+            // удаляем заголовок ("OutUser ")
+            mess = mess.Remove(0, 8);
+
+            int id = Convert.ToInt32(mess);
+
+            idLoginUser.Remove(id);
+
+            return "Выход";
         }
 
     }

@@ -55,6 +55,7 @@
     <Compile Include="AddDoc.cs" />
     <Compile Include="DeleteDoc.cs" />
     <Compile Include="GetDoc.cs" />
+    <Compile Include="GetHistorySend.cs" />
     <Compile Include="RequestsClient\AddEnrollee.cs" />
     <Compile Include="ClientObject.cs" />
     <Compile Include="DeleteEnrollee.cs" />
