@@ -3,31 +3,31 @@
   <Id>0</Id>
   <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
-  <NameConcession>вне конкурса</NameConcession>
+  <NameConcession>без льготы</NameConcession>
   <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>Алекс</EnrolleeFirstname>
-  <EnrolleeLastname>Ало</EnrolleeLastname>
-  <EnrolleePatronymic>Петрович</EnrolleePatronymic>
+  <EnrolleeFirstname>2</EnrolleeFirstname>
+  <EnrolleeLastname>2</EnrolleeLastname>
+  <EnrolleePatronymic>2</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-  <EnrolleePassportNumber>3435</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>3252355335</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>г пинск </EnrolleeAddress>
-  <EnrolleePostcode>323544</EnrolleePostcode>
-  <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
-  <EnrolleeEducation>срежнее</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>Сш №3</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>г Пинск</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>345253</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>43</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>ава@bk.ru</EnrolleeEmail>
-  <EnrolleeAdditionalInformation />
+  <EnrolleeDateOfBirth>2010-02-02T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>2</EnrolleePassportSeries>
+  <EnrolleePassportNumber>2</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>2</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>2</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2010-02-02T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2010-02-02T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>2</EnrolleeAddress>
+  <EnrolleePostcode>2</EnrolleePostcode>
+  <EnrolleePhoneNumber>2</EnrolleePhoneNumber>
+  <EnrolleeEducation>2</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>2</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>2</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2010-02-02T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>2</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>2</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>2</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>2</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>2</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>antongunko1@gmail.com</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
 </EnrolleeSend>

@@ -168,6 +168,8 @@ namespace ServerSelectionCommittee
 
                     mess = "Данные успешно добавленны";
 
+
+
                     Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {login} добавил абитуриента {enrollee.EnrolleeLastname} {enrollee.EnrolleeFirstname[0]}. {enrollee.EnrolleePatronymic[0]}.");
                 }
             }
@@ -177,6 +179,9 @@ namespace ServerSelectionCommittee
 
                 Console.WriteLine(mess);
             }
+
+
+            new SendEmail().Send(this);
 
             return mess;
         }
