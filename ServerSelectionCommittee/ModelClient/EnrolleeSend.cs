@@ -118,7 +118,7 @@ namespace ServerSelectionCommittee
             return xmlData;
         }
 
-        public string AddDB()
+        public string AddDB(string login)
         {
             string mess = null;
 
@@ -126,88 +126,11 @@ namespace ServerSelectionCommittee
             {
                 using (DataContext db = new DataContext())
                 {
-                int? idCon = null;
-                if  (NameConcession!= "без льготы")
-                    idCon= db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession; 
-
-
-                Enrollee enrollee = new Enrollee();
-                    enrollee.EnrolleeLastname = EnrolleeLastname;
-                    enrollee.EnrolleeFirstname = EnrolleeFirstname;
-                    enrollee.EnrolleePatronymic = EnrolleePatronymic;
-                enrollee.IdDirectionTraining = IdDirectionTraining;
-                    enrollee.IdLevelEducation = db.LevelEducations.Where(p => p.NameLevelEducation == NameLevelEducation).First().IdLevelEducation;
-                enrollee.IdConcession = idCon;
-                    enrollee.DescriptionConcession = DescriptionConcession;
-                    enrollee.EnrolleeAdditionalInformation = EnrolleeAdditionalInformation;
-                    enrollee.EnrolleeAddress = EnrolleeAddress;
-                    enrollee.EnrolleeAddressLastPlaceOfStudy = EnrolleeAddressLastPlaceOfStudy;
-                    enrollee.EnrolleeAverageGradeOfCertificateOrDiploma = EnrolleeAverageGradeOfCertificateOrDiploma;
-                    enrollee.EnrolleeDateExpiry = (DateTime)EnrolleeDateExpiry;
-                    enrollee.EnrolleeDateOfBirth =  (DateTime)EnrolleeDateOfBirth;
-                    enrollee.EnrolleeDateOfIssue = (DateTime)EnrolleeDateOfIssue;
-                enrollee.EnrolleeDateOfRegistration = DateTime.Now;
-                    enrollee.EnrolleeEducation = EnrolleeEducation;
-                    enrollee.EnrolleeEmail = EnrolleeEmail;
-                    enrollee.EnrolleeGraduationDate = EnrolleeGraduationDate;
-                    enrollee.EnrolleeLastPlaceOfStudy = EnrolleeLastPlaceOfStudy;
-                    enrollee.EnrolleeNumberCertificateOrDiploma = EnrolleeNumberCertificateOrDiploma;
-                    enrollee.EnrolleePassportIssuedBy = EnrolleePassportIssuedBy;
-                    enrollee.EnrolleePassportNumber = EnrolleePassportNumber;
-                    enrollee.EnrolleePassportPersonalNumber = EnrolleePassportPersonalNumber;
-                    enrollee.EnrolleePassportSeries = EnrolleePassportSeries;
-                    enrollee.EnrolleePhoneNumber = EnrolleePhoneNumber;
-                    enrollee.EnrolleePostcode = EnrolleePostcode;
-                    enrollee.EnrolleeScoreOfTheFirstEntranceTest = EnrolleeScoreOfTheFirstEntranceTest;
-                    enrollee.EnrolleeScoreOfTheSecondEntranceTest = EnrolleeScoreOfTheSecondEntranceTest;
-                    enrollee.EnrolleeScoreOfTheThirdEntranceTest = EnrolleeScoreOfTheThirdEntranceTest;
-                    enrollee.EnrolleeSex = EnrolleeSex;
-
-                Console.WriteLine("__");
-                db.Enrollees.Add(enrollee);
-                    db.SaveChanges();
-
-
-                Console.WriteLine("End");
-
-                mess = "Данные успешно добавленны";
-
-                    Console.WriteLine(mess);
-                }
-            }
-            catch (Exception ex)
-            {
-                mess = "Ошибка "+ex.ToString();
-             
-                Console.WriteLine(mess);
-           }
-
-            return mess;
-        }
-
-
-        public string UpdateDB()
-        {
-            string mess = null;
-
-            try
-            {
-                using (DataContext db = new DataContext())
-                {
-
-                    Console.WriteLine("\n1");
-
                     int? idCon = null;
                     if (NameConcession != "без льготы")
                         idCon = db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession;
 
-                    Console.WriteLine("\n2");
-
-                    Enrollee enrollee = db.Enrollees.Where(p => p.IdEnrollee == this.Id).First();
-
-                    Console.WriteLine("\n3");
-
-                    db.Enrollees.Attach(enrollee);
+                    Enrollee enrollee = new Enrollee();
                     enrollee.EnrolleeLastname = EnrolleeLastname;
                     enrollee.EnrolleeFirstname = EnrolleeFirstname;
                     enrollee.EnrolleePatronymic = EnrolleePatronymic;
@@ -239,14 +162,13 @@ namespace ServerSelectionCommittee
                     enrollee.EnrolleeScoreOfTheThirdEntranceTest = EnrolleeScoreOfTheThirdEntranceTest;
                     enrollee.EnrolleeSex = EnrolleeSex;
 
-                    Console.WriteLine("\n4");
-
-                    Console.WriteLine("\n5");
+                    db.Enrollees.Add(enrollee);
                     db.SaveChanges();
 
-                    mess = "Данные успешно изменены";
 
-                    Console.WriteLine(mess);
+                    mess = "Данные успешно добавленны";
+
+                    Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {login} добавил абитуриента {enrollee.EnrolleeLastname} {enrollee.EnrolleeFirstname[0]}. {enrollee.EnrolleePatronymic[0]}.");
                 }
             }
             catch (Exception ex)
@@ -255,6 +177,72 @@ namespace ServerSelectionCommittee
 
                 Console.WriteLine(mess);
             }
+
+            return mess;
+        }
+
+
+        public string UpdateDB(string login)
+        {
+            string mess = null;
+
+            Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {login} изменил данные абитуриента {EnrolleeLastname} {EnrolleeFirstname[0]}. {EnrolleePatronymic[0]}.");
+
+            //try
+            //{
+            using (DataContext db = new DataContext())
+                {
+                    int? idCon = null;
+                        idCon = db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession;
+
+                    Enrollee enrollee = db.Enrollees.Where(p => p.IdEnrollee == this.Id).First();
+
+                db.Enrollees.Attach(enrollee);
+                    enrollee.EnrolleeLastname = EnrolleeLastname;
+                    enrollee.EnrolleeFirstname = EnrolleeFirstname;
+                    enrollee.EnrolleePatronymic = EnrolleePatronymic;
+                    enrollee.IdDirectionTraining = IdDirectionTraining;
+                    enrollee.IdLevelEducation = db.LevelEducations.Where(p => p.NameLevelEducation == NameLevelEducation).First().IdLevelEducation;
+                    enrollee.IdConcession = idCon;
+                    enrollee.DescriptionConcession = DescriptionConcession;
+                    enrollee.EnrolleeAdditionalInformation = EnrolleeAdditionalInformation;
+                    enrollee.EnrolleeAddress = EnrolleeAddress;
+                    enrollee.EnrolleeAddressLastPlaceOfStudy = EnrolleeAddressLastPlaceOfStudy;
+                    enrollee.EnrolleeAverageGradeOfCertificateOrDiploma = EnrolleeAverageGradeOfCertificateOrDiploma;
+                    enrollee.EnrolleeDateExpiry = (DateTime)EnrolleeDateExpiry;
+                    enrollee.EnrolleeDateOfBirth = (DateTime)EnrolleeDateOfBirth;
+                    enrollee.EnrolleeDateOfIssue = (DateTime)EnrolleeDateOfIssue;
+                    enrollee.EnrolleeDateOfRegistration = DateTime.Now;
+                    enrollee.EnrolleeEducation = EnrolleeEducation;
+                    enrollee.EnrolleeEmail = EnrolleeEmail;
+                    enrollee.EnrolleeGraduationDate = EnrolleeGraduationDate;
+                    enrollee.EnrolleeLastPlaceOfStudy = EnrolleeLastPlaceOfStudy;
+                    enrollee.EnrolleeNumberCertificateOrDiploma = EnrolleeNumberCertificateOrDiploma;
+                    enrollee.EnrolleePassportIssuedBy = EnrolleePassportIssuedBy;
+                    enrollee.EnrolleePassportNumber = EnrolleePassportNumber;
+                    enrollee.EnrolleePassportPersonalNumber = EnrolleePassportPersonalNumber;
+                    enrollee.EnrolleePassportSeries = EnrolleePassportSeries;
+                    enrollee.EnrolleePhoneNumber = EnrolleePhoneNumber;
+                    enrollee.EnrolleePostcode = EnrolleePostcode;
+                    enrollee.EnrolleeScoreOfTheFirstEntranceTest = EnrolleeScoreOfTheFirstEntranceTest;
+                    enrollee.EnrolleeScoreOfTheSecondEntranceTest = EnrolleeScoreOfTheSecondEntranceTest;
+                    enrollee.EnrolleeScoreOfTheThirdEntranceTest = EnrolleeScoreOfTheThirdEntranceTest;
+                    enrollee.EnrolleeSex = EnrolleeSex;
+
+
+                db.SaveChanges();
+
+                    mess = "Данные успешно изменены";
+
+                }
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    mess = "Ошибка " + ex.ToString();
+
+            //    Console.WriteLine(mess);
+            //}
 
             return mess;
         }

@@ -12,19 +12,20 @@ namespace ServerSelectionCommittee
     {
         public static string AddData(string message)
         {
-            // удаляем заголовок ("LogInTo ")
+            // удаляем заголовок ("LogInTo")
             message = message.Remove(0, 12);
+
+            string[] array = message.Split(' ');
+            string login = array[0];
+            message = message.Remove(0,login.Length+1);
 
             // запись сообщения в xml
             WriteToXml(message);
 
             // десериализация
             EnrolleeSend enrolleeSend = DeserializeFileXml();
-
-            Console.WriteLine($"enr lastname: {enrolleeSend.EnrolleeLastname}");
-
-            return enrolleeSend.AddDB();
-
+            
+            return enrolleeSend.AddDB(login);
         }
 
         // запись в xml

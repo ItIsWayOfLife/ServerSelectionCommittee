@@ -53,12 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDoc.cs" />
-    <Compile Include="DeleteDoc.cs" />
-    <Compile Include="GetDoc.cs" />
-    <Compile Include="GetHistorySend.cs" />
+    <Compile Include="RequestsClient\DeleteDoc.cs" />
+    <Compile Include="RequestsClient\GetDoc.cs" />
+    <Compile Include="RequestsClient\GetHistorySend.cs" />
     <Compile Include="RequestsClient\AddEnrollee.cs" />
     <Compile Include="ClientObject.cs" />
-    <Compile Include="DeleteEnrollee.cs" />
+    <Compile Include="RequestsClient\DeleteEnrollee.cs" />
     <Compile Include="RequestsClient\GetConcessionSend.cs" />
     <Compile Include="RequestsClient\GetLevelEducationSend.cs" />
     <Compile Include="ModelClient\ConcessionSend.cs" />
@@ -92,9 +92,9 @@
     <Compile Include="ModelClient\TrainingDirectionSend.cs" />
     <Compile Include="ModelClient\UserSend.cs" />
     <Compile Include="RequestsClient\UpdateEnrollee.cs" />
-    <Compile Include="ReturnLastIdEn.cs" />
+    <Compile Include="RequestsClient\ReturnLastIdEn.cs" />
     <Compile Include="StoreUser.cs" />
-    <Compile Include="UpdateDoc.cs" />
+    <Compile Include="RequestsClient\UpdateDoc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -23,7 +23,11 @@ namespace ServerSelectionCommittee
             {
                 listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1234);
                 listener.Start();
-                Console.WriteLine("Ожидание подключений...");
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine($"{DateTime.Now.ToString()}: Сервер запущен.");
+                Console.ResetColor();
+
+               
                 while (true)
                 {
                     TcpClient client = listener.AcceptTcpClient();
@@ -43,7 +47,6 @@ namespace ServerSelectionCommittee
                 if (listener != null)
                     listener.Stop();
             }
-
         }
     }
 }

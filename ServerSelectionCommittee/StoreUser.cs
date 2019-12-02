@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ServerSelectionCommittee
 {
@@ -46,8 +47,14 @@ namespace ServerSelectionCommittee
 
             idLoginUser.Remove(id);
 
+            using (DataContext db = new DataContext())
+            {
+                
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {db.Users.Where(p=>p.Id==id).First().Login} вышел из системы.");
+                Console.ResetColor();
+            }
             return "Выход";
         }
-
     }
 }

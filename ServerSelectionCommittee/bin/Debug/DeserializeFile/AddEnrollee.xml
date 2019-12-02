@@ -3,31 +3,31 @@
   <Id>0</Id>
   <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
-  <NameConcession>без льготы</NameConcession>
+  <NameConcession>вне конкурса</NameConcession>
   <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>434</EnrolleeFirstname>
-  <EnrolleeLastname>34</EnrolleeLastname>
-  <EnrolleePatronymic>344</EnrolleePatronymic>
+  <EnrolleeFirstname>Алекс</EnrolleeFirstname>
+  <EnrolleeLastname>Ало</EnrolleeLastname>
+  <EnrolleePatronymic>Петрович</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
   <EnrolleeDateOfBirth>2015-05-03T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>34</EnrolleePassportSeries>
-  <EnrolleePassportNumber>34</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>34</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>34</EnrolleePassportIssuedBy>
+  <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
+  <EnrolleePassportNumber>3435</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>3252355335</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>ПинскимГОВД</EnrolleePassportIssuedBy>
   <EnrolleeDateOfIssue>2015-05-03T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2025-05-03T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>43</EnrolleeAddress>
-  <EnrolleePostcode>34</EnrolleePostcode>
-  <EnrolleePhoneNumber>43</EnrolleePhoneNumber>
-  <EnrolleeEducation>34</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>43</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeDateExpiry>2015-05-03T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>г пинск </EnrolleeAddress>
+  <EnrolleePostcode>323544</EnrolleePostcode>
+  <EnrolleePhoneNumber>3334234242</EnrolleePhoneNumber>
+  <EnrolleeEducation>срежнее</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>Сш №3</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>г Пинск</EnrolleeAddressLastPlaceOfStudy>
   <EnrolleeGraduationDate>2015-05-03T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>3434</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeNumberCertificateOrDiploma>345253</EnrolleeNumberCertificateOrDiploma>
   <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
   <EnrolleeScoreOfTheFirstEntranceTest>34</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>43</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>34</EnrolleeEmail>
-  <EnrolleeAdditionalInformation>34</EnrolleeAdditionalInformation>
+  <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>43</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>ава@bk.ru</EnrolleeEmail>
+  <EnrolleeAdditionalInformation />
 </EnrolleeSend>

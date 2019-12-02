@@ -18,8 +18,6 @@ namespace ServerSelectionCommittee
 
                     string id = en.OrderByDescending(p=>p.IdEnrollee).First().IdEnrollee.ToString();
 
-                    Console.WriteLine("LastId: "+id.ToString());
-
                     return id;
                 }
             }

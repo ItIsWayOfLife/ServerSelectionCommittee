@@ -8,8 +8,11 @@ namespace ServerSelectionCommittee
 {
     class GetTrainingDirectionSend
     {
-        public static string GetTD()
+        public static string GetTD(string mess)
         {
+            mess = mess.Replace("GetTD","");
+            string[] array = mess.Split(' ');
+            Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {array[0]} считал направления подготовки.");
             try
             {
                 // сериализация данных

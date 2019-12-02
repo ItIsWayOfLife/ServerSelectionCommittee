@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>1065</Id>
-  <IdDirectionTraining>13</IdDirectionTraining>
+  <Id>21</Id>
+  <IdDirectionTraining>7</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
-  <EnrolleeDateOfRegistration>2019-11-29T22:32:01.593</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>11</EnrolleeFirstname>
-  <EnrolleeLastname>11</EnrolleeLastname>
-  <EnrolleePatronymic>11</EnrolleePatronymic>
+  <EnrolleeDateOfRegistration>2019-11-30T20:54:57.99</EnrolleeDateOfRegistration>
+  <EnrolleeFirstname>Михаил</EnrolleeFirstname>
+  <EnrolleeLastname>Бодзевич</EnrolleeLastname>
+  <EnrolleePatronymic>Степанович</EnrolleePatronymic>
   <EnrolleeSex>мужской</EnrolleeSex>
-  <EnrolleeDateOfBirth>2010-02-01T00:00:00</EnrolleeDateOfBirth>
-  <EnrolleePassportSeries>11</EnrolleePassportSeries>
-  <EnrolleePassportNumber>11</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>11</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>11</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2010-02-01T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2010-02-01T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>11</EnrolleeAddress>
-  <EnrolleePostcode>11</EnrolleePostcode>
-  <EnrolleePhoneNumber>11</EnrolleePhoneNumber>
-  <EnrolleeEducation>11</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>11</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>11</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2010-02-01T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>11</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>11</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>11</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>11</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>11</EnrolleeScoreOfTheThirdEntranceTest>
-  <EnrolleeEmail>11</EnrolleeEmail>
-  <EnrolleeAdditionalInformation>11</EnrolleeAdditionalInformation>
+  <EnrolleeDateOfBirth>2001-08-06T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleePassportSeries>ds</EnrolleePassportSeries>
+  <EnrolleePassportNumber>3004310</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>34945543211</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>Минским УВД №2</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2014-02-20T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2024-02-20T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>Минская об, г.Минск, ул. Карла Маркса 23, кв.2</EnrolleeAddress>
+  <EnrolleePostcode>220015</EnrolleePostcode>
+  <EnrolleePhoneNumber>+65765434532</EnrolleePhoneNumber>
+  <EnrolleeEducation>среднее</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>Гимназия №1</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>г.Минск, ул. Строителей 5</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2018-06-14T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>5472354688</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>96</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>50</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>80</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>35</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleeEmail>2</EnrolleeEmail>
+  <EnrolleeAdditionalInformation>2</EnrolleeAdditionalInformation>
 </EnrolleeSend>

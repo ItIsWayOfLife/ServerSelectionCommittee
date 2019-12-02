@@ -40,6 +40,9 @@ namespace ServerSelectionCommittee
                 if (StoreUser.AddUser(userSend.Id))
                 {
                     userSend?.WriteToXml();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {userSend.Login} вошёл в систему.");
+                    Console.ResetColor();
                     return userSend?.ReadToXml();
                 }
                 else

@@ -12,8 +12,13 @@ namespace ServerSelectionCommittee
     {
         public static string UpdateData(string message)
         {
-            // удаляем заголовок ("UpdateEnrollee ")
-            message = message.Remove(0, 15);
+            // удаляем заголовок ("UpdateEnrollee")
+            message = message.Remove(0, 14);
+
+            string[] array = message.Split(' ');
+            string login = array[0];
+
+            message = message.Remove(0,login.Length+1);
 
             // запись сообщения в xml
             WriteToXml(message);
@@ -21,7 +26,7 @@ namespace ServerSelectionCommittee
             // десериализация
             EnrolleeSend enrolleeSend = DeserializeFileXml();
 
-            return enrolleeSend.UpdateDB();
+            return enrolleeSend.UpdateDB(login);
         }
 
         // запись в xml
