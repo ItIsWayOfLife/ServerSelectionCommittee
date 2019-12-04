@@ -94,6 +94,7 @@
     <Compile Include="RequestsClient\UpdateEnrollee.cs" />
     <Compile Include="RequestsClient\ReturnLastIdEn.cs" />
     <Compile Include="SendEmail.cs" />
+    <Compile Include="StateData.cs" />
     <Compile Include="StoreUser.cs" />
     <Compile Include="RequestsClient\UpdateDoc.cs" />
   </ItemGroup>

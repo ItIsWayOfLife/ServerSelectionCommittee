@@ -193,14 +193,19 @@ namespace ServerSelectionCommittee
 
             Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {login} изменил данные абитуриента {EnrolleeLastname} {EnrolleeFirstname[0]}. {EnrolleePatronymic[0]}.");
 
-            //try
-            //{
+            try
+            {
             using (DataContext db = new DataContext())
                 {
                     int? idCon = null;
+
+                    if (NameConcession!="без льготы")
                         idCon = db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession;
 
+                    
+
                     Enrollee enrollee = db.Enrollees.Where(p => p.IdEnrollee == this.Id).First();
+
 
                 db.Enrollees.Attach(enrollee);
                     enrollee.EnrolleeLastname = EnrolleeLastname;
@@ -241,13 +246,13 @@ namespace ServerSelectionCommittee
 
                 }
 
-            //}
-            //catch (Exception ex)
-            //{
-            //    mess = "Ошибка " + ex.ToString();
+            }
+            catch (Exception ex)
+            {
+                mess = "Ошибка " + ex.ToString();
 
-            //    Console.WriteLine(mess);
-            //}
+                Console.WriteLine(mess);
+            }
 
             return mess;
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,7 @@ namespace ServerSelectionCommittee
 
         public void Process()
         {
+
             NetworkStream stream = null;
             try
             {
@@ -68,7 +70,22 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(UpdateEnrollee.UpdateData(message));
                     }
 
+                    // возвр историю
+                    if (message.StartsWith("OutUser"))
+                    {
+                        data = Encoding.Unicode.GetBytes(StoreUser.OutUser(message));
+                    }
 
+
+                    if (message.StartsWith("GetDoc"))
+                    {
+                        data = Encoding.Unicode.GetBytes(GetLevelEducationSend.GetData());
+                    }
+
+                    if (message.StartsWith("GetStateData"))
+                    {
+                        data = Encoding.Unicode.GetBytes(StateData.GetData(message));
+                    }
 
 
                     if (message.StartsWith("GetLevelEducation"))
@@ -81,7 +98,6 @@ namespace ServerSelectionCommittee
                     {
                         data = Encoding.Unicode.GetBytes(GetConcessionSend.GetData());
                     }
-
 
 
 
@@ -130,12 +146,7 @@ namespace ServerSelectionCommittee
                         data = Encoding.Unicode.GetBytes(GetHistorySend.GetData());
                     }
 
-                    // возвр историю
-                    if (message.StartsWith("OutUser "))
-                    {
-                        data = Encoding.Unicode.GetBytes(StoreUser.OutUser(message));
-                    }
-
+                   
                     stream.Write(data, 0, data.Length);
                 }
                 }
