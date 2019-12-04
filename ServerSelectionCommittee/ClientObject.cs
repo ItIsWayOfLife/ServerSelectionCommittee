@@ -21,6 +21,7 @@ namespace ServerSelectionCommittee
 
         public void Process()
         {
+            Console.WriteLine("");
 
             NetworkStream stream = null;
             try
@@ -28,7 +29,8 @@ namespace ServerSelectionCommittee
                 stream = client.GetStream();
                 byte[] data = new byte[256];
                 while (true)
-                {
+                {         
+                 
                     // Получаем сообщение
                     StringBuilder response = new StringBuilder();
                     int bytes = 0;
@@ -162,5 +164,8 @@ namespace ServerSelectionCommittee
                     client.Close();
             }
         }
+
+
+     
     }
 }

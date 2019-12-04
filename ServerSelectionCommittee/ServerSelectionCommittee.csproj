@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDoc.cs" />
+    <Compile Include="ClientHttp.cs" />
+    <Compile Include="CreateView.cs" />
     <Compile Include="RequestsClient\DeleteDoc.cs" />
     <Compile Include="RequestsClient\GetDoc.cs" />
     <Compile Include="RequestsClient\GetHistorySend.cs" />

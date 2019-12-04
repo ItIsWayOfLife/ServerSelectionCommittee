@@ -19,6 +19,8 @@ namespace ServerSelectionCommittee
 
         static void Main(string[] args)
         {
+           
+
             try
             {
                 listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1234);
@@ -30,12 +32,20 @@ namespace ServerSelectionCommittee
                
                 while (true)
                 {
+
+                    // зап http
+                    ClientHttp clientHttp = new ClientHttp();
+                    Thread thread = new Thread(clientHttp.Listen);
+                    thread.Start();
+
                     TcpClient client = listener.AcceptTcpClient();
                     ClientObject clientObject = new ClientObject(client);
                     // Создаем новый поток для обслуживания нового клиента
                     Thread clientThread = new Thread(new
                    ThreadStart(clientObject.Process));
                     clientThread.Start();
+
+                   
                 }
             }
             catch (Exception ex)

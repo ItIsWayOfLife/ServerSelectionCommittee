@@ -43,6 +43,62 @@ namespace ServerSelectionCommittee
         public string EnrolleeEmail { get; set; }
         public string EnrolleeAdditionalInformation { get; set; }
 
+
+        public double? SumScore()
+        {
+            double? sum = 0;
+
+            sum += EnrolleeAverageGradeOfCertificateOrDiploma;
+
+            if (EnrolleeScoreOfTheFirstEntranceTest != null)
+                sum += EnrolleeScoreOfTheFirstEntranceTest;
+
+            if (EnrolleeScoreOfTheSecondEntranceTest != null)
+                sum += EnrolleeScoreOfTheSecondEntranceTest;
+
+            if (EnrolleeScoreOfTheThirdEntranceTest != null)
+                sum += EnrolleeScoreOfTheThirdEntranceTest;
+
+            return sum;
+
+        }
+
+        public static int[] AllScore()
+        {
+            int[] array = new int[6];
+
+            for (int i = 0; i < array.Length;i++)
+            {
+                array[i] = 0;
+            }
+
+            List<EnrolleeSend> enrollees = GetData();
+
+            foreach (EnrolleeSend e in enrollees)
+            {
+                if (e.SumScore() < 150)
+                    array[0]++;
+
+                if (e.SumScore() >= 150 && e.SumScore() < 200)
+                    array[1]++;
+
+                if (e.SumScore() >= 200 && e.SumScore() < 250)
+                    array[2]++;
+
+                if (e.SumScore() >= 250 && e.SumScore() < 300)
+                    array[3]++;
+
+                if (e.SumScore() >= 300 && e.SumScore() < 350)
+                    array[4]++;
+
+                if (e.SumScore() >= 350 && e.SumScore() < 400)
+                    array[5]++;
+            }
+
+
+            return array;
+        }
+
         public static List<EnrolleeSend> GetData()
         {
             List<EnrolleeSend> enrolleeSends = new List<EnrolleeSend>();
