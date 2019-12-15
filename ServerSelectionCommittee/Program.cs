@@ -28,8 +28,7 @@ namespace ServerSelectionCommittee
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine($"{DateTime.Now.ToString()}: Сервер запущен.");
                 Console.ResetColor();
-
-               
+                
                 while (true)
                 {
 
@@ -43,9 +42,7 @@ namespace ServerSelectionCommittee
                     // Создаем новый поток для обслуживания нового клиента
                     Thread clientThread = new Thread(new
                    ThreadStart(clientObject.Process));
-                    clientThread.Start();
-
-                   
+                    clientThread.Start();                     
                 }
             }
             catch (Exception ex)

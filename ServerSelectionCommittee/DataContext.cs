@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
+
 
 namespace ServerSelectionCommittee
 {
@@ -12,7 +8,6 @@ namespace ServerSelectionCommittee
         public DataContext() : base("Enrollee")
         {  
         }
-
 
         public DbSet<BudgetOrCharge> BudgetOrCharges { get; set; }
         public DbSet<Concession> Concessions { get; set; }
@@ -29,7 +24,5 @@ namespace ServerSelectionCommittee
         public DbSet<TrainingDirection> TrainingDirections { get; set; }
         public DbSet<TrainingPeriod> TrainingPeriods { get; set; }
         public DbSet<User> Users { get; set; }
-
-
     }
 }

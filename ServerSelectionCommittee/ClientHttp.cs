@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServerSelectionCommittee
 {
@@ -14,9 +10,8 @@ namespace ServerSelectionCommittee
         {
             try
             {
-
                 HttpListener listener = new HttpListener();
-                listener.Prefixes.Add("http://localhost:3333/connection/");
+                listener.Prefixes.Add("http://localhost:3333/monitoring/");
                 listener.Start();
                 Console.WriteLine("Ожидание подключений...");
 
@@ -39,6 +34,5 @@ namespace ServerSelectionCommittee
 
             }
         }
-
     }
 }

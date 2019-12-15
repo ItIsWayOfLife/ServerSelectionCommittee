@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ServerSelectionCommittee.AddEnrollee">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\AddEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.DeleteDoc">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\DeleteDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.DeleteEnrollee">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\DeleteEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetConcessionSend">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetConcessionSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetDoc">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetEnrollee">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetHistorySend">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetHistorySend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetLevelEducationSend">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetLevelEducationSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.GetTrainingDirectionSend">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\GetTrainingDirectionSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.LogIn">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAAAAAAAAAIAAACAAAQAAAAAAA=</HashCode>
+      <FileName>RequestsClient\LogIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.ReturnLastIdEn">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\ReturnLastIdEn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.UpdateDoc">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\UpdateDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSelectionCommittee.UpdateEnrollee">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestsClient\UpdateEnrollee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

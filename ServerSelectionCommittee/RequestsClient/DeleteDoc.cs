@@ -18,7 +18,6 @@ namespace ServerSelectionCommittee
 
                 // id удал док
                 int id = Convert.ToInt32(message);
-                Console.WriteLine("Id Удал дока: "+id.ToString());
 
                 using (DataContext data = new DataContext())
                 {

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace ServerSelectionCommittee
@@ -11,8 +9,7 @@ namespace ServerSelectionCommittee
     [Serializable]
     public class StateData
     {
-
-        public double CountEnrolee { get; set; }
+       public double CountEnrolee { get; set; }
         public double CountEnroleeBigjet { get; set; }
         public double CountEnroleePay { get; set; }
         public double PercentBrest { get; set; }
@@ -112,7 +109,6 @@ namespace ServerSelectionCommittee
             }
         }
 
-
         public static void DataSerializable(StateData st)
         {    
             XmlSerializer formatter = new XmlSerializer(typeof(StateData));
@@ -136,7 +132,5 @@ namespace ServerSelectionCommittee
 
             return xmlData;
         }
-
-
     }
 }

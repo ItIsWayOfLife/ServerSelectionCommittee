@@ -25,7 +25,7 @@ namespace ServerSelectionCommittee
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошиб");
+                Console.WriteLine($"{DateTime.Now.ToString()}: Ошибка "+ex.ToString());
 
                 return "Ошибка " + ex;
             }

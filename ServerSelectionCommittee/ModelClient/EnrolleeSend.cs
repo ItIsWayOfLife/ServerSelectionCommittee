@@ -95,7 +95,6 @@ namespace ServerSelectionCommittee
                     array[5]++;
             }
 
-
             return array;
         }
 
@@ -224,8 +223,6 @@ namespace ServerSelectionCommittee
 
                     mess = "Данные успешно добавленны";
 
-
-
                     Console.WriteLine($"{DateTime.Now.ToString()}: Пользователь {login} добавил абитуриента {enrollee.EnrolleeLastname} {enrollee.EnrolleeFirstname[0]}. {enrollee.EnrolleePatronymic[0]}.");
                 }
             }
@@ -257,11 +254,8 @@ namespace ServerSelectionCommittee
 
                     if (NameConcession!="без льготы")
                         idCon = db.Concessions.Where(p => p.NameConcession == NameConcession).First().IdConcession;
-
-                    
-
+                
                     Enrollee enrollee = db.Enrollees.Where(p => p.IdEnrollee == this.Id).First();
-
 
                 db.Enrollees.Attach(enrollee);
                     enrollee.EnrolleeLastname = EnrolleeLastname;
@@ -295,11 +289,9 @@ namespace ServerSelectionCommittee
                     enrollee.EnrolleeScoreOfTheThirdEntranceTest = EnrolleeScoreOfTheThirdEntranceTest;
                     enrollee.EnrolleeSex = EnrolleeSex;
 
-
                 db.SaveChanges();
 
                     mess = "Данные успешно изменены";
-
                 }
 
             }
@@ -307,7 +299,6 @@ namespace ServerSelectionCommittee
             {
                 mess = "Ошибка " + ex.ToString();
 
-                Console.WriteLine(mess);
             }
 
             return mess;

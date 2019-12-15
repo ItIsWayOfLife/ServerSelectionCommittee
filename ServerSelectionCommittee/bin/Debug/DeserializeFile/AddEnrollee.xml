@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <EnrolleeSend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Id>0</Id>
-  <IdDirectionTraining>2</IdDirectionTraining>
+  <IdDirectionTraining>1</IdDirectionTraining>
   <NameLevelEducation>первая</NameLevelEducation>
   <NameConcession>без льготы</NameConcession>
   <EnrolleeDateOfRegistration>0001-01-01T00:00:00</EnrolleeDateOfRegistration>
-  <EnrolleeFirstname>Инна</EnrolleeFirstname>
-  <EnrolleeLastname>Морж</EnrolleeLastname>
-  <EnrolleePatronymic>Абрамовна</EnrolleePatronymic>
-  <EnrolleeSex>женский</EnrolleeSex>
-  <EnrolleeDateOfBirth>2015-05-23T00:00:00</EnrolleeDateOfBirth>
+  <EnrolleeFirstname>Кирилл</EnrolleeFirstname>
+  <EnrolleeLastname>Бурак</EnrolleeLastname>
+  <EnrolleePatronymic>Асламович</EnrolleePatronymic>
+  <EnrolleeSex>мужской</EnrolleeSex>
+  <EnrolleeDateOfBirth>2001-11-21T00:00:00</EnrolleeDateOfBirth>
   <EnrolleePassportSeries>АВ</EnrolleePassportSeries>
-  <EnrolleePassportNumber>231253</EnrolleePassportNumber>
-  <EnrolleePassportPersonalNumber>3525255253</EnrolleePassportPersonalNumber>
-  <EnrolleePassportIssuedBy>Гомельским ГОВД №2</EnrolleePassportIssuedBy>
-  <EnrolleeDateOfIssue>2015-05-23T00:00:00</EnrolleeDateOfIssue>
-  <EnrolleeDateExpiry>2015-05-23T00:00:00</EnrolleeDateExpiry>
-  <EnrolleeAddress>г Гомель</EnrolleeAddress>
-  <EnrolleePostcode />
-  <EnrolleePhoneNumber />
-  <EnrolleeEducation>23</EnrolleeEducation>
-  <EnrolleeLastPlaceOfStudy>34</EnrolleeLastPlaceOfStudy>
-  <EnrolleeAddressLastPlaceOfStudy>34</EnrolleeAddressLastPlaceOfStudy>
-  <EnrolleeGraduationDate>2015-05-23T00:00:00</EnrolleeGraduationDate>
-  <EnrolleeNumberCertificateOrDiploma>43</EnrolleeNumberCertificateOrDiploma>
-  <EnrolleeAverageGradeOfCertificateOrDiploma>34</EnrolleeAverageGradeOfCertificateOrDiploma>
-  <EnrolleeScoreOfTheFirstEntranceTest>55</EnrolleeScoreOfTheFirstEntranceTest>
-  <EnrolleeScoreOfTheSecondEntranceTest>34</EnrolleeScoreOfTheSecondEntranceTest>
-  <EnrolleeScoreOfTheThirdEntranceTest>34</EnrolleeScoreOfTheThirdEntranceTest>
+  <EnrolleePassportNumber>1231324</EnrolleePassportNumber>
+  <EnrolleePassportPersonalNumber>13142244</EnrolleePassportPersonalNumber>
+  <EnrolleePassportIssuedBy>Витедским ГОВД</EnrolleePassportIssuedBy>
+  <EnrolleeDateOfIssue>2015-10-12T00:00:00</EnrolleeDateOfIssue>
+  <EnrolleeDateExpiry>2025-10-12T00:00:00</EnrolleeDateExpiry>
+  <EnrolleeAddress>Витебск</EnrolleeAddress>
+  <EnrolleePostcode>21332</EnrolleePostcode>
+  <EnrolleePhoneNumber>3423132</EnrolleePhoneNumber>
+  <EnrolleeEducation>среднее</EnrolleeEducation>
+  <EnrolleeLastPlaceOfStudy>Витебская СШ №12</EnrolleeLastPlaceOfStudy>
+  <EnrolleeAddressLastPlaceOfStudy>Витебск</EnrolleeAddressLastPlaceOfStudy>
+  <EnrolleeGraduationDate>2017-10-12T00:00:00</EnrolleeGraduationDate>
+  <EnrolleeNumberCertificateOrDiploma>123424</EnrolleeNumberCertificateOrDiploma>
+  <EnrolleeAverageGradeOfCertificateOrDiploma>45</EnrolleeAverageGradeOfCertificateOrDiploma>
+  <EnrolleeScoreOfTheFirstEntranceTest>45</EnrolleeScoreOfTheFirstEntranceTest>
+  <EnrolleeScoreOfTheSecondEntranceTest>54</EnrolleeScoreOfTheSecondEntranceTest>
+  <EnrolleeScoreOfTheThirdEntranceTest>23</EnrolleeScoreOfTheThirdEntranceTest>
   <EnrolleeEmail />
-  <EnrolleeAdditionalInformation>55</EnrolleeAdditionalInformation>
+  <EnrolleeAdditionalInformation />
 </EnrolleeSend>

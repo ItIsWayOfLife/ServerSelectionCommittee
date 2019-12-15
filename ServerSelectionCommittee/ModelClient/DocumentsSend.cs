@@ -121,22 +121,15 @@ namespace ServerSelectionCommittee
 
         public static string AddDB(List<DocumentsSend> documents)
         {
-            Console.WriteLine("Start");
-
             string mess = null;
-
-            Console.WriteLine("1");
             try
             {
                 using (DataContext db = new DataContext())
                 {
                     Documents doc = null;
-
-                    Console.WriteLine(db.Enrollees.OrderByDescending(p => p.IdEnrollee).First().IdEnrollee.ToString());
-
+              
                     foreach (DocumentsSend d in documents)
                     {
-                        Console.WriteLine("2");
                          doc = new Documents()
                         {
                             IdEnrollee = d.IdEnrollee,
@@ -145,20 +138,10 @@ namespace ServerSelectionCommittee
                             NumberDocument = d.NumberDocument
                         };
                     }
-
-                    Console.WriteLine($"Doc info idEnr: {doc.IdEnrollee}; nameDoc: {doc.NameDocument}; des: {doc.Description}; number: {doc.NumberDocument}");
-
+                
                     db.Documents.Add(doc);
-
-                    Console.WriteLine("4");
-
-                    Console.WriteLine("5");
-
-
               
                     db.SaveChanges();
-
-                    Console.WriteLine("6");
 
                     mess = "Успешно сохранены";
                 }
@@ -191,15 +174,11 @@ namespace ServerSelectionCommittee
                     db.SaveChanges();
 
                     mess = "Данные успешно изменены";
-
-                    Console.WriteLine(mess);
                 }
             }
             catch (Exception ex)
             {
                 mess = "Ошибка " + ex.ToString();
-
-                Console.WriteLine(mess);
             }
 
             return mess;

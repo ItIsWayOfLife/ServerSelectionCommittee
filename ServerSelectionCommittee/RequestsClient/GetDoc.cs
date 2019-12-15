@@ -18,7 +18,6 @@ namespace ServerSelectionCommittee
 
             List<DocumentsSend> documents = null;
 
-
                 documents = DocumentsSend.GetData().Where(p => p.IdEnrollee == id).ToList();
 
             DocumentsSend.DataSerializable(documents);

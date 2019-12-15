@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServerSelectionCommittee
 {
@@ -14,7 +11,7 @@ namespace ServerSelectionCommittee
 
             responseStr+=  "<title>Мониторинг вступительной компании ПолесГУ</title> <style> td{ width: 130px; height:60px; border: solid 1px silver; text-align:center; } </style>";
 
-            responseStr += "<h1><center>Мониторинг вступительной компании</center></h1>";
+            responseStr += "<h1><center>Мониторинг вступительной компании ПолесГУ</center></h1>";
 
             responseStr += "<table>";
 
@@ -41,15 +38,12 @@ namespace ServerSelectionCommittee
                         $"<td>  {(enrolleeSends.Where(p => p.IdDirectionTraining == tr.IdDirectionTraining)).Where(p => p.SumScore() >= 350 && p.SumScore() < 400).ToList().Count}</td></tr>";
                 }
             }
-
-              
-
+            
             responseStr += "</table>";
 
             responseStr += "</body></html>";
 
             return responseStr;
         }
-
     }
 }

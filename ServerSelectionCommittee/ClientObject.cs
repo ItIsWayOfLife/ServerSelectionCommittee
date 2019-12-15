@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
+
 
 namespace ServerSelectionCommittee
 {
@@ -21,8 +16,6 @@ namespace ServerSelectionCommittee
 
         public void Process()
         {
-            Console.WriteLine("");
-
             NetworkStream stream = null;
             try
             {
@@ -44,110 +37,111 @@ namespace ServerSelectionCommittee
 
                     // вход 
                     if (message.StartsWith("LoginTo"))
-                    {                     
-                        data = Encoding.Unicode.GetBytes(LogIn.LogInTo(message));
+                    {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на вход в систему");
+                        data = Encoding.Unicode.GetBytes(LogIn.LogInTo(message)); 
                     }
-
                     // данные на направл подготовки
                     if (message.StartsWith("GetTD"))
                     {
-                        data = Encoding.Unicode.GetBytes(GetTrainingDirectionSend.GetTD(message));
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на получения направлений подготовки");
+                        data = Encoding.Unicode.GetBytes(GetTrainingDirectionSend.GetTD(message)); 
                     }
-
                     // добавить абитуриента
                     if (message.StartsWith("AddEnrollee"))
                     {
-                        data = Encoding.Unicode.GetBytes(AddEnrollee.AddData(message));
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на добавление абитуриента");
+                        data = Encoding.Unicode.GetBytes(AddEnrollee.AddData(message)); 
                     }
-
                     // данные абитуриентов
                     if (message.StartsWith("GetEnrollee"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на получение данных абитуриентов");
                         data = Encoding.Unicode.GetBytes(GetEnrollee.GetData(message));
                     }
-
                     // обновить абитур
                     if (message.StartsWith("UpdateEnrollee"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на одновление абитуриента");
                         data = Encoding.Unicode.GetBytes(UpdateEnrollee.UpdateData(message));
                     }
-
                     // возвр историю
                     if (message.StartsWith("OutUser"))
                     {
                         data = Encoding.Unicode.GetBytes(StoreUser.OutUser(message));
                     }
 
-
                     if (message.StartsWith("GetDoc"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на получение документации");
                         data = Encoding.Unicode.GetBytes(GetLevelEducationSend.GetData());
                     }
 
                     if (message.StartsWith("GetStateData"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на статические данные");
                         data = Encoding.Unicode.GetBytes(StateData.GetData(message));
                     }
 
-
                     if (message.StartsWith("GetLevelEducation"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на уровень образования");
                         data = Encoding.Unicode.GetBytes(GetLevelEducationSend.GetData());
                     }
 
-
                     if (message.StartsWith("GetConcessionSend"))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на льготы");
                         data = Encoding.Unicode.GetBytes(GetConcessionSend.GetData());
                     }
 
-
-
                     if (message.StartsWith("DeleteEnrollee "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на удаления абитуриента");
                         data = Encoding.Unicode.GetBytes(DeleteEnrollee.DeleteEn(message));
                     }
-
-                   
-
+                 
                     // возвращает id посл добавл абит
                     if (message.StartsWith("ReturnLastIdEn "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на последнего добавленного абитуриента");
                         data = Encoding.Unicode.GetBytes(ReturnLastIdEn.ReturnId());
                     }
-
-                 
-
+              
                           // добавляет доки
                     if (message.StartsWith("AddDoc "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на добавление документации");
                         data = Encoding.Unicode.GetBytes(AddDoc.AddData(message));
                     }
 
                     // возвращает докум
                     if (message.StartsWith("GetDoc "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на вход в документацию");
                         data = Encoding.Unicode.GetBytes(GetDoc.GetData(message));
                     }
 
                     // удал док
                     if (message.StartsWith("DeleteDoc "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на удаление документации");
                         data = Encoding.Unicode.GetBytes(DeleteDoc.DeleteByIdDoc(message));
                     }
 
                     // обнов док
                     if (message.StartsWith("UpdateDoc "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на обновление документации");
                         data = Encoding.Unicode.GetBytes(UpdateDoc.UpdateData(message));
                     }
 
                     // возвр историю
                     if (message.StartsWith("GetHis "))
                     {
+                        Console.WriteLine($"{DateTime.Now.ToString()}: Запрос на получение документации");
                         data = Encoding.Unicode.GetBytes(GetHistorySend.GetData());
                     }
-
                    
                     stream.Write(data, 0, data.Length);
                 }
@@ -163,9 +157,6 @@ namespace ServerSelectionCommittee
                 if (client != null)
                     client.Close();
             }
-        }
-
-
-     
+        }    
     }
 }
